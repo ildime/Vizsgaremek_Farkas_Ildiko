@@ -2,6 +2,7 @@ package login;
 
 import base.BaseTest;
 import org.junit.jupiter.api.*;
+import org.openqa.selenium.WebDriver;
 import pages.CustomerAccountPage;
 import pages.LoginPage;
 import pages.LogoutPage;
@@ -10,11 +11,17 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class LoginPageTest extends BaseTest {
 
+    private WebDriver driver;
+
+    public LoginPageTest(WebDriver driver) {
+        this.driver = driver;
+    }
+
     @DisplayName("Sikeres bejelentkezés teszt")
     @Test
     public void LoginTest(){
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");
-        Utils.TakeScreenshot(Utils.getDriver());
+        Utils.TakeScreenshot(driver);
         assertEquals("Szia, illusionless beauty!", Utils.waitVisibility(CustomerAccountPage.WELCOME).getText());
         LogoutPage.logoutSuccessful();
     }
