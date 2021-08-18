@@ -1,0 +1,8 @@
+company = Illusonless
+telephone = 78910
+fax = 123456
+street_1 = Semmi
+street_2 = 21
+city = Győr
+zip = 4050
+region = Pest megye
