@@ -26,7 +26,7 @@ public class Utils {
             //options.addArguments("--disable-dev-shm-usage");
             //options.addArguments("--disable-notifications");
             options.addArguments("--incognito");
-            //options.addArguments("--headless");
+            options.addArguments("--headless");
             //options.setHeadless(true);
             //options.setExperimentalOption("excludeSwitches", "disable-popup-blocking");
             options.addArguments("start-maximized");

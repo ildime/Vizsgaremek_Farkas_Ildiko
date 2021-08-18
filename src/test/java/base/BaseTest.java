@@ -22,9 +22,9 @@ public class BaseTest {   //implement TestWatcher?
         HomePage.clickAcceptCookies();
     }
 
-//    @AfterEach
-//    public void Close(){driver.close();}
+    @AfterEach
+    public void Close(){driver.close();}
 
-//    @AfterAll  //kilép az összes teszt után
-//    public static void quitDriver(){driver.quit();}
+    @AfterAll  //kilép az összes teszt után
+    public static void quitDriver(){driver.quit();}
 }
