@@ -12,7 +12,7 @@ public class ExpertAdvicePageTest extends BaseTest {
 
     @DisplayName("Több oldalas lista bejárás teszt")
     @Test
-    public void paginationTest() throws IOException {
+    public void paginationTest() {
         ExpertAdvicePage.pagination();
 
         int lines = 0;

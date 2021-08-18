@@ -1,19 +1,11 @@
 package login;
 
 import base.BaseTest;
-import io.qameta.allure.Allure;
-import io.qameta.allure.Step;
 import org.junit.jupiter.api.*;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import pages.CustomerAccountPage;
 import pages.LoginPage;
 import pages.LogoutPage;
 import utils.Utils;
-
-import java.io.ByteArrayInputStream;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class LoginPageTest extends BaseTest {

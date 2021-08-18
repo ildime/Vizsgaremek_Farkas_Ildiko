@@ -6,7 +6,6 @@ import pages.CustomerAccountPage;
 import pages.LogoutPage;
 import pages.RegistrationPage;
 import utils.Utils;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RegistrationPageTest extends BaseTest {

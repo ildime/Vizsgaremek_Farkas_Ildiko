@@ -30,11 +30,13 @@ public class WishlistPage {
         return wishlistSendMsg;
     }
 
-    public static void wishlistDataDelete(){
+    public static void wishlistFillData(){
         Utils.click(ITEMS);
         Utils.click(STRESSLESS_TO_WISHLIST);
         Utils.writeText(DESCIPTRION_BOX, "Stress less, Wrinkle free");
-        Utils.clear(DESCIPTRION_BOX);
+    }
 
+    public static void wishlistDataDelete(){
+        Utils.clear(DESCIPTRION_BOX);
     }
 }

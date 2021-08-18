@@ -3,7 +3,6 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utils.Utils;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,7 +13,6 @@ public class SearchPage {
     public static final By SEARCH_FIELD = By.id("search");
     public static final By SEARCH_RESULT_BRAND = By.xpath("//*[@class='product-brand']");
     public static final By SEARCH_RESULT_NAME = By.xpath("//*[@class='product-name']");
-
 
     public static void dataListSearchToFile(String keyword) {
         Utils.writeText(SEARCH_FIELD, keyword);
@@ -36,7 +34,6 @@ public class SearchPage {
         return result;
     }
 
-
     public static String listToString() {
         String listString = "";
         for (String s : SearchPage.searchResultText()) {
@@ -44,7 +41,6 @@ public class SearchPage {
         }
         return listString;
     }
-
 
     public static String brandItemName() {
         String text = Utils.getText(SEARCH_RESULT_BRAND) + Utils.getText(SEARCH_RESULT_NAME);

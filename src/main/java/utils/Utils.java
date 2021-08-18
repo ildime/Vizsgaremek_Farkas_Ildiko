@@ -1,17 +1,11 @@
 package utils;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import io.qameta.allure.Allure;
-import io.qameta.allure.Step;
-import org.apache.commons.io.IOUtils;
+import io.github.bonigarcia.wdm.WebDriverManager;;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.*;
-import org.w3c.dom.ls.LSException;
-
 import java.io.*;
-import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.Scanner;
 
@@ -69,6 +63,16 @@ public class Utils {
         }return null;
     }
 
+    public static String writeToFileAppend(String filename, String text) {
+        try {
+            FileWriter textFile = new FileWriter(filename, true);
+            textFile.append(text+"\n");
+            textFile.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }return null;
+    }
+
     public static String readFromFile(String filename){
         String data = "";
         try{
@@ -104,24 +108,4 @@ public class Utils {
             }
         } return result;
     }
-
-
-    //        BufferedReader br = null;
-//        try {
-//            String sCurrentLine;
-//            br = new BufferedReader(new FileReader("Book.txt"));
-//            while ((sCurrentLine = br.readLine()) != null) {
-//                System.out.println(sCurrentLine);
-//            }
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
-
 }
-
-
-
-
-//artoftesting.com/press-enter-tab-space-arrow-function-keys-in-selenium-webdriver-with-java
-//searchBar.sendKeys(Keys.ENTER);

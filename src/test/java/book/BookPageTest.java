@@ -4,7 +4,6 @@ import base.BaseTest;
 import org.junit.jupiter.api.*;
 import pages.BookPage;
 import utils.Utils;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BookPageTest extends BaseTest {

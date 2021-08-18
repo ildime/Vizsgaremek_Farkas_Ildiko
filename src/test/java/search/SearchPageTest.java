@@ -2,7 +2,6 @@ package search;
 
 import base.BaseTest;
 import org.junit.jupiter.api.*;
-import pages.BookPage;
 import pages.SearchPage;
 import utils.Utils;
 
