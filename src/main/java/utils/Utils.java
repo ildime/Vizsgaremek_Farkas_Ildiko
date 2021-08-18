@@ -1,6 +1,8 @@
 package utils;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Allure;
+import io.qameta.allure.Step;
 import org.apache.commons.io.IOUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -36,6 +38,12 @@ public class Utils {
 
         }
         return driver;
+    }
+
+    @Step("TakeScreenshot")
+    public static void TakeScreenshot(WebDriver driver){
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        System.out.println(driver.getCurrentUrl());
     }
 
     public static WebElement waitVisibility(By by) {

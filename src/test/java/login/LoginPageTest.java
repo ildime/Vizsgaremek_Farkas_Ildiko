@@ -14,6 +14,7 @@ public class LoginPageTest extends BaseTest {
     @Test
     public void LoginTest(){
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");
+        Utils.TakeScreenshot(Utils.getDriver());
         assertEquals("Szia, illusionless beauty!", Utils.waitVisibility(CustomerAccountPage.WELCOME).getText());
         LogoutPage.logoutSuccessful();
     }

@@ -16,6 +16,7 @@ public class BaseTest {   //implement TestWatcher?
         driver = Utils.getDriver();
     }
 
+
     @BeforeEach
     public void Setup() {
         driver.get("https://skinsmart.hu/");
