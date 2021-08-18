@@ -1,0 +1,174 @@
+{
+  "uid" : "4787f02095f0e4d1",
+  "name" : "Sikeres kijeletkezés teszt",
+  "fullName" : "logout.LogoutPageTest.LogoutTest",
+  "historyId" : "dc7ff221c598827b8104251850f4b5b",
+  "time" : {
+    "start" : 1629323431558,
+    "stop" : 1629323437859,
+    "duration" : 6301
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1629323431561,
+      "stop" : 1629323432240,
+      "duration" : 679
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "init",
+    "time" : {
+      "start" : 1629323418193,
+      "stop" : 1629323431532,
+      "duration" : 13339
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629323437786,
+      "stop" : 1629323437850,
+      "duration" : 64
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1629323437954,
+      "stop" : 1629323437972,
+      "duration" : 18
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az83-831"
+  }, {
+    "name" : "thread",
+    "value" : "2984@fv-az83-831.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "logout.LogoutPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "logout.LogoutPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "LogoutTest"
+  }, {
+    "name" : "suite",
+    "value" : "logout.LogoutPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "4c52760e72742b51",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/6//#testresult/4c52760e72742b51",
+        "status" : "broken",
+        "statusDetails" : "No ParameterResolver registered for parameter [org.openqa.selenium.WebDriver arg0] in constructor [public logout.LogoutPageTest(org.openqa.selenium.WebDriver)].",
+        "time" : {
+          "start" : 1629297291316,
+          "stop" : 1629297291352,
+          "duration" : 36
+        }
+      }, {
+        "uid" : "5bab0532c0d833b3",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/5//#testresult/5bab0532c0d833b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629297048690,
+          "stop" : 1629297054632,
+          "duration" : 5942
+        }
+      }, {
+        "uid" : "4c3d782b4f61075c",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/4//#testresult/4c3d782b4f61075c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629296767188,
+          "stop" : 1629296773058,
+          "duration" : 5870
+        }
+      }, {
+        "uid" : "dd168856444d593f",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/3//#testresult/dd168856444d593f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629296235441,
+          "stop" : 1629296240193,
+          "duration" : 4752
+        }
+      }, {
+        "uid" : "b5ad6a26a2e959f4",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/2//#testresult/b5ad6a26a2e959f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629294883452,
+          "stop" : 1629294888261,
+          "duration" : 4809
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4787f02095f0e4d1.json",
+  "parameterValues" : [ ]
+}

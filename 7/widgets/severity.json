@@ -1,0 +1,171 @@
+[ {
+  "uid" : "4787f02095f0e4d1",
+  "name" : "Sikeres kijeletkezés teszt",
+  "time" : {
+    "start" : 1629323431558,
+    "stop" : 1629323437859,
+    "duration" : 6301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8443e2d4cd683c8b",
+  "name" : "Adat vagy adadtok törlése",
+  "time" : {
+    "start" : 1629323434861,
+    "stop" : 1629323434880,
+    "duration" : 19
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5ddd1d9409bfa0bd",
+  "name" : "Ismételt és sorozatos adatbevitel adatforrásból - profil kitöltés",
+  "time" : {
+    "start" : 1629323438014,
+    "stop" : 1629323438017,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ff2d2bb7518c948e",
+  "name" : "Sikeres bejelentkezés teszt",
+  "time" : {
+    "start" : 1629323434921,
+    "stop" : 1629323434929,
+    "duration" : 8
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5cc8933a1e10b3ff",
+  "name" : "Adatok lementése felületről teszt - Könyv bemutató",
+  "time" : {
+    "start" : 1629323434977,
+    "stop" : 1629323434979,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9c44bd3af5e535b3",
+  "name" : "Sikertelen bejelentkezés teszt -üres mail",
+  "time" : {
+    "start" : 1629323434969,
+    "stop" : 1629323434972,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "acc087a829e60e84",
+  "name" : "Sikertelen regisztráció teszt - generált adatokkal, jelszómegerősítés különbözik",
+  "time" : {
+    "start" : 1629323434993,
+    "stop" : 1629323434995,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2201a0f6f9dd0273",
+  "name" : "Új adat bevitel",
+  "time" : {
+    "start" : 1629323434896,
+    "stop" : 1629323434900,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7e535ff27c58a345",
+  "name" : "Sikertelen bejelentkezés teszt -üres jelszó",
+  "time" : {
+    "start" : 1629323434940,
+    "stop" : 1629323434945,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c2c84c88e453a043",
+  "name" : "Adadtkezelési nyilatkozat használata teszt - adatmentéssel",
+  "time" : {
+    "start" : 1629323431286,
+    "stop" : 1629323434663,
+    "duration" : 3377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74d241f4b5f48622",
+  "name" : "Meglévő adat módosítása - jelszó módosítása",
+  "time" : {
+    "start" : 1629323437984,
+    "stop" : 1629323437994,
+    "duration" : 10
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1696fe22bc4f21ca",
+  "name" : "Több oldalas lista bejárás teszt",
+  "time" : {
+    "start" : 1629323434983,
+    "stop" : 1629323434986,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e6081f58e4aafd95",
+  "name" : "Meglévő adat módosítása - sikertelen jelszó módosítás",
+  "time" : {
+    "start" : 1629323438006,
+    "stop" : 1629323438009,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ffbf398fa4897033",
+  "name" : "Adatok listázása - szűrés",
+  "time" : {
+    "start" : 1629323434799,
+    "stop" : 1629323434839,
+    "duration" : 40
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "104ec59ebcb97343",
+  "name" : "Sikertelen bejelentkezés teszt -helytelen mail",
+  "time" : {
+    "start" : 1629323434954,
+    "stop" : 1629323434958,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "78acf36019a97765",
+  "name" : "Sikertelen bejelentkezés teszt -helytelen jelszó",
+  "time" : {
+    "start" : 1629323434964,
+    "stop" : 1629323434966,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4c213311b52b74de",
+  "name" : "Sikertelen regisztráció teszt - üres adatmezőkkel",
+  "time" : {
+    "start" : 1629323435001,
+    "stop" : 1629323435003,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
