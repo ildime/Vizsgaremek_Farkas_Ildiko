@@ -18,23 +18,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class LoginPageTest extends BaseTest {
 
-    private WebDriver driver;
-
-    public LoginPageTest(WebDriver driver) {
-        this.driver = driver;
-    }
-
-    @Step("TakeScreenshot")
-    public void TakeScreenshot(WebDriver driver){
-        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-        System.out.println(driver.getCurrentUrl());
-    }
-
     @DisplayName("Sikeres bejelentkezés teszt")
     @Test
     public void LoginTest(){
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");
-        TakeScreenshot(driver);
         assertEquals("Szia, illusionless beauty!", Utils.waitVisibility(CustomerAccountPage.WELCOME).getText());
         LogoutPage.logoutSuccessful();
     }
