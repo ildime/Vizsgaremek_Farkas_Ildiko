@@ -40,12 +40,6 @@ public class Utils {
         return driver;
     }
 
-    @Step("TakeScreenshot")
-    public static void TakeScreenshot(WebDriver driver){
-        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-        System.out.println(driver.getCurrentUrl());
-    }
-
     public static WebElement waitVisibility(By by) {
         if (driver != null) {
             wait = new WebDriverWait(driver, 5);

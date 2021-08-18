@@ -1,12 +1,19 @@
 package login;
 
 import base.BaseTest;
+import io.qameta.allure.Allure;
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.*;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import pages.CustomerAccountPage;
 import pages.LoginPage;
 import pages.LogoutPage;
 import utils.Utils;
+
+import java.io.ByteArrayInputStream;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class LoginPageTest extends BaseTest {
@@ -17,11 +24,17 @@ public class LoginPageTest extends BaseTest {
         this.driver = driver;
     }
 
+    @Step("TakeScreenshot")
+    public void TakeScreenshot(WebDriver driver){
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        System.out.println(driver.getCurrentUrl());
+    }
+
     @DisplayName("Sikeres bejelentkezés teszt")
     @Test
     public void LoginTest(){
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");
-        Utils.TakeScreenshot(driver);
+        TakeScreenshot(driver);
         assertEquals("Szia, illusionless beauty!", Utils.waitVisibility(CustomerAccountPage.WELCOME).getText());
         LogoutPage.logoutSuccessful();
     }
