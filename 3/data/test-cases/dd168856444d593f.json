@@ -1,0 +1,137 @@
+{
+  "uid" : "dd168856444d593f",
+  "name" : "Sikeres kijeletkezés teszt",
+  "fullName" : "logout.LogoutPageTest.LogoutTest",
+  "historyId" : "dc7ff221c598827b8104251850f4b5b",
+  "time" : {
+    "start" : 1629296235441,
+    "stop" : 1629296240193,
+    "duration" : 4752
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1629296230060,
+      "stop" : 1629296235414,
+      "duration" : 5354
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1629296235446,
+      "stop" : 1629296235999,
+      "duration" : 553
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1629296240293,
+      "stop" : 1629296240309,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629296240119,
+      "stop" : 1629296240186,
+      "duration" : 67
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az28-876"
+  }, {
+    "name" : "thread",
+    "value" : "2992@fv-az28-876.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "logout.LogoutPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "logout.LogoutPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "LogoutTest"
+  }, {
+    "name" : "suite",
+    "value" : "logout.LogoutPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b5ad6a26a2e959f4",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/2//#testresult/b5ad6a26a2e959f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629294883452,
+          "stop" : 1629294888261,
+          "duration" : 4809
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dd168856444d593f.json",
+  "parameterValues" : [ ]
+}
