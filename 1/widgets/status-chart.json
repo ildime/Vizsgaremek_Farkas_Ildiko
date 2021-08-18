@@ -1,0 +1,91 @@
+[ {
+  "uid" : "703f03f328ae702c",
+  "name" : "CustomerAccountPageTest",
+  "time" : {
+    "start" : 1629294173288,
+    "stop" : 1629294173288,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "37ac3aa133ccd1aa",
+  "name" : "BookPageTest",
+  "time" : {
+    "start" : 1629294175599,
+    "stop" : 1629294175599,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "898db2dceba69b74",
+  "name" : "ExpertAdvicePageTest",
+  "time" : {
+    "start" : 1629294175755,
+    "stop" : 1629294175755,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ba12daaa2822436c",
+  "name" : "LoginPageTest",
+  "time" : {
+    "start" : 1629294175433,
+    "stop" : 1629294175433,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d15b4cc3f27816b3",
+  "name" : "WishlistPageTest",
+  "time" : {
+    "start" : 1629294174382,
+    "stop" : 1629294174382,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9635cbcff39afeaa",
+  "name" : "LogoutPageTest",
+  "time" : {
+    "start" : 1629294172304,
+    "stop" : 1629294172304,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ed56f1a64ec30564",
+  "name" : "SearchPageTest",
+  "time" : {
+    "start" : 1629294172719,
+    "stop" : 1629294172719,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4c9e02c498458515",
+  "name" : "RegistrationPageTest",
+  "time" : {
+    "start" : 1629294175905,
+    "stop" : 1629294175905,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "28a01dd1c6ca5a09",
+  "name" : "PrivacyPolicyPageTest",
+  "time" : {
+    "start" : 1629294172528,
+    "stop" : 1629294172528,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

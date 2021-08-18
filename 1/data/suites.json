@@ -1,0 +1,158 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "logout.LogoutPageTest",
+    "children" : [ {
+      "name" : "LogoutPageTest",
+      "uid" : "9635cbcff39afeaa",
+      "parentUid" : "07fe7956239e859751514588c57f3e52",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629294172304,
+        "stop" : 1629294172304,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "07fe7956239e859751514588c57f3e52"
+  }, {
+    "name" : "privacypolicy.PrivacyPolicyPageTest",
+    "children" : [ {
+      "name" : "PrivacyPolicyPageTest",
+      "uid" : "28a01dd1c6ca5a09",
+      "parentUid" : "a1a1564686708601d3ed0e6c5441ebdc",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629294172528,
+        "stop" : 1629294172528,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a1a1564686708601d3ed0e6c5441ebdc"
+  }, {
+    "name" : "search.SearchPageTest",
+    "children" : [ {
+      "name" : "SearchPageTest",
+      "uid" : "ed56f1a64ec30564",
+      "parentUid" : "9cb754a8b29d2c6a59d0f7ff44eeb659",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629294172719,
+        "stop" : 1629294172719,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9cb754a8b29d2c6a59d0f7ff44eeb659"
+  }, {
+    "name" : "customer.CustomerAccountPageTest",
+    "children" : [ {
+      "name" : "CustomerAccountPageTest",
+      "uid" : "703f03f328ae702c",
+      "parentUid" : "88099d4333f0f349f73b0f837eaaf728",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629294173288,
+        "stop" : 1629294173288,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "88099d4333f0f349f73b0f837eaaf728"
+  }, {
+    "name" : "wish.WishlistPageTest",
+    "children" : [ {
+      "name" : "WishlistPageTest",
+      "uid" : "d15b4cc3f27816b3",
+      "parentUid" : "8ea622b1a551e137d070b2ba38a3bc96",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629294174382,
+        "stop" : 1629294174382,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8ea622b1a551e137d070b2ba38a3bc96"
+  }, {
+    "name" : "login.LoginPageTest",
+    "children" : [ {
+      "name" : "LoginPageTest",
+      "uid" : "ba12daaa2822436c",
+      "parentUid" : "59c5d56bf5aecb3d2f93f686508142f7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629294175433,
+        "stop" : 1629294175433,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "59c5d56bf5aecb3d2f93f686508142f7"
+  }, {
+    "name" : "book.BookPageTest",
+    "children" : [ {
+      "name" : "BookPageTest",
+      "uid" : "37ac3aa133ccd1aa",
+      "parentUid" : "33e90167c21486412f19521d67e4d6bf",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629294175599,
+        "stop" : 1629294175599,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "33e90167c21486412f19521d67e4d6bf"
+  }, {
+    "name" : "expertadvice.ExpertAdvicePageTest",
+    "children" : [ {
+      "name" : "ExpertAdvicePageTest",
+      "uid" : "898db2dceba69b74",
+      "parentUid" : "7d9ac0ec04d676f8b0b77ad924cb30e1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629294175755,
+        "stop" : 1629294175755,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7d9ac0ec04d676f8b0b77ad924cb30e1"
+  }, {
+    "name" : "registration.RegistrationPageTest",
+    "children" : [ {
+      "name" : "RegistrationPageTest",
+      "uid" : "4c9e02c498458515",
+      "parentUid" : "e6df3acd3933015c37462d077df3f03e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629294175905,
+        "stop" : 1629294175905,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e6df3acd3933015c37462d077df3f03e"
+  } ],
+  "name" : "suites"
+}
