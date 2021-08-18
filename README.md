@@ -32,7 +32,7 @@ Bejelentkezés és egy szűrés után a kívánságlistába helyezve egy termék
 7.Ismételt és sorozatos adatbevitel adatforrásból(CustomerAccountPage+CustomerAccountPageTest+Address.txt)
 Bejelentkezés után az alapértelmezett számlázási címet szerkesztjük. A meglévő címeket töröljük, és az előre létrehozott Address.txt fájlból beolvasva módosítjuk az adatokat. (A mentésről kapott sikeres üzenet ANGOLUL jelenik meg.)(A cím szerkesztése oldalon a kitölthető nyomtatvány alján "Alapértelmezett számlázási cím""Alapértelmezett szállítási cím" feliratoknak nincs semmi funkciója)
 
-8.Meglévő adat módosítása (jelszómódosítás)-CustomerAccountPage+CustomerAccountPageTest
+8.Meglévő adat módosítása (jelszómódosítás) (CustomerAccountPage+CustomerAccountPageTest)
 Ugyan már az elöző 7-es pont (ismételt adatbevitel adatforrásból) is a meglévő adat módosításával történik, de itt a jelszó sikeres megváltoztatását, és egy sikertelen próbálkozás alkalmával kapott hibaüzenetet vizsgál a teszt. A rendszer egy angol nyelvű automatikus email üzenetet küld a jelszó megváltoztatásáról, amelyben kéri, hogy ha nem a fióktulajdonos engedélyezte a műveletet, akkor lépjen kapcsolatba a Skinsmart-al. (Az emailben nincs kontakt megadva, csak a hello@skinsmart.hu-ról érkező levelezési cím elérhető.)
 
 9.Adat vagy adatok törlése (WishlistPage+WishlistPageTest)
