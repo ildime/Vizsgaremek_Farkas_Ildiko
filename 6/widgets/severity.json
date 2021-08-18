@@ -1,0 +1,161 @@
+[ {
+  "uid" : "4649c1ccdf7a9472",
+  "name" : "Sikertelen bejelentkezés teszt -helytelen jelszó",
+  "time" : {
+    "start" : 1629297291955,
+    "stop" : 1629297291957,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "af6e11fea2b90074",
+  "name" : "Meglévő adat módosítása - Sikertelen jelszó módosítás",
+  "time" : {
+    "start" : 1629297291786,
+    "stop" : 1629297291804,
+    "duration" : 18
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "84adbca7dc4464dd",
+  "name" : "Adatok listázása - szűrés",
+  "time" : {
+    "start" : 1629297291629,
+    "stop" : 1629297291664,
+    "duration" : 35
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4a42e69b2ddb91d4",
+  "name" : "Adatok lementése felületről teszt - Könyv bemutató",
+  "time" : {
+    "start" : 1629297292007,
+    "stop" : 1629297292021,
+    "duration" : 14
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5fd34ac67422af67",
+  "name" : "Sikertelen bejelentkezés teszt -üres mail",
+  "time" : {
+    "start" : 1629297291962,
+    "stop" : 1629297291977,
+    "duration" : 15
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a89e7c022c1dd42e",
+  "name" : "Meglévő adat módosítása - Jelszó módosítása",
+  "time" : {
+    "start" : 1629297291732,
+    "stop" : 1629297291763,
+    "duration" : 31
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4c52760e72742b51",
+  "name" : "Sikeres kijeletkezés teszt",
+  "time" : {
+    "start" : 1629297291316,
+    "stop" : 1629297291352,
+    "duration" : 36
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5e9919a1813bcc7e",
+  "name" : "Sikertelen bejelentkezés teszt -üres jelszó",
+  "time" : {
+    "start" : 1629297291920,
+    "stop" : 1629297291931,
+    "duration" : 11
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d0104258d00ad8e2",
+  "name" : "Sikertelen regisztráció teszt - generált adatokkal, jelszómegerősítés különbözik",
+  "time" : {
+    "start" : 1629297292030,
+    "stop" : 1629297292032,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "83515b2cce72f95b",
+  "name" : "Ismételt és sorozatos adatbevitel adatforrásból - Profil kitöltés",
+  "time" : {
+    "start" : 1629297291818,
+    "stop" : 1629297291821,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c68a9e092024a9e2",
+  "name" : "Sikertelen regisztráció teszt - üres adatmezőkkel",
+  "time" : {
+    "start" : 1629297292062,
+    "stop" : 1629297292064,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ffcba9c2d10eb385",
+  "name" : "Sikertelen bejelentkezés teszt -helytelen mail",
+  "time" : {
+    "start" : 1629297291934,
+    "stop" : 1629297291936,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e083e05118dfcaf1",
+  "name" : "Új adat bevitel",
+  "time" : {
+    "start" : 1629297291847,
+    "stop" : 1629297291850,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "35b361210cee15b",
+  "name" : "Sikeres bejelentkezés teszt",
+  "time" : {
+    "start" : 1629297291902,
+    "stop" : 1629297291906,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ed84f2c2feeff621",
+  "name" : "Adadtkezelési nyilatkozat használata teszt - adatmentés",
+  "time" : {
+    "start" : 1629297291169,
+    "stop" : 1629297294692,
+    "duration" : 3523
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4d644516eb96ff7",
+  "name" : "Több oldalas lista bejárás teszt",
+  "time" : {
+    "start" : 1629297294830,
+    "stop" : 1629297294842,
+    "duration" : 12
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
