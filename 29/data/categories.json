@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@class='product-brand'] (tried for 5 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Adatok listázása - szűrés",
+        "uid" : "60aaa3acbf50b00b",
+        "parentUid" : "bd4f7d65d7b4dc1874c8d30bdeb3ff52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629414271405,
+          "stop" : 1629414287967,
+          "duration" : 16562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd4f7d65d7b4dc1874c8d30bdeb3ff52"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: button btn-update'] (tried for 5 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Adat vagy adatok törlése",
+        "uid" : "771d081bd7d1336a",
+        "parentUid" : "7bfc3e127dffdf695cb9ce7d54aaea78",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629414333352,
+          "stop" : 1629414351900,
+          "duration" : 18548
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7bfc3e127dffdf695cb9ce7d54aaea78"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.id: email (tried for 5 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Új adat bevitel",
+        "uid" : "69cfba2d3dbb893a",
+        "parentUid" : "a9329880f63f8987694b9e13735ced51",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629414351906,
+          "stop" : 1629414365921,
+          "duration" : 14015
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a9329880f63f8987694b9e13735ced51"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

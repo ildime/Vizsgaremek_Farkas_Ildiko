@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko",
+  "buildOrder" : 29,
+  "buildName" : "GitHub Actions Run #1148782996",
+  "buildUrl" : "https://github.com/ildime/Vizsgaremek_Farkas_Ildiko/actions/runs/1148782996",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/29/"
+} ]
