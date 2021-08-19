@@ -24,7 +24,7 @@ public class WishlistPageTest extends BaseTest{
     @Test
     public void wishlistDataTest() {
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");
-        SearchPage.dataListSearchToFile("gorgeous");
+        SearchPage.searchKeyword("gorgeous");
         WishlistPage.wishlistData();
         String wishlistSendMsg = WishlistPage.wishlistSendMsg();
         assertEquals("Your Wishlist has been shared.", wishlistSendMsg);
@@ -41,8 +41,7 @@ public class WishlistPageTest extends BaseTest{
 
     @Step("TakeScreenshot")
     public void TakeScreenshot(WebDriver driver){
-        ByteArrayInputStream picture = new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES));
-        Allure.addAttachment("Screenshot", picture);
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         assertTrue(true);
     }
 
@@ -50,7 +49,7 @@ public class WishlistPageTest extends BaseTest{
     @Test
     public void wishlistDataDeleteTest() {
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");
-        SearchPage.dataListSearchToFile("gorgeous");
+        SearchPage.searchKeyword("gorgeous");
         WishlistPage.wishlistFillData();
         TakeScreenshot(driver);
         WishlistPage.wishlistDataDelete();

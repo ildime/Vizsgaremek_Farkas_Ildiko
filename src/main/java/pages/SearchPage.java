@@ -14,11 +14,19 @@ public class SearchPage {
     public static final By SEARCH_RESULT_BRAND = By.xpath("//*[@class='product-brand']");
     public static final By SEARCH_RESULT_NAME = By.xpath("//*[@class='product-name']");
 
-    public static void dataListSearchToFile(String keyword) {
+    public static void searchKeyword(String keyword) {
         Utils.writeText(SEARCH_FIELD, keyword);
         Utils.enter(SEARCH_FIELD);
- //       String text = SearchPage.listToString();    ezt a 2sort másik fg-be rakni, mert így már meg van wishben hívva
-  //      Utils.writeToFile("Search_result.txt", text);
+    }
+
+    public static void textToFile(){
+        String text = SearchPage.listToString();
+        Utils.writeToFileAppend("Search_result.txt", text);
+    }
+
+    public static String brandItemName() {
+        String text = Utils.getText(SEARCH_RESULT_BRAND) + Utils.getText(SEARCH_RESULT_NAME);
+        return text;
     }
 
     public static List<String> searchResultText() {
@@ -40,11 +48,6 @@ public class SearchPage {
             listString += s + "\t";
         }
         return listString;
-    }
-
-    public static String brandItemName() {
-        String text = Utils.getText(SEARCH_RESULT_BRAND) + Utils.getText(SEARCH_RESULT_NAME);
-        return text;
     }
 
     public static void refreshAndSearch(String keyword) {

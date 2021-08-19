@@ -31,4 +31,8 @@ public class ExpertAdvicePage {
             }
         } while (true);
     }
+
+//    if (file.exists()) {
+//        file.delete();
+//    }
 }

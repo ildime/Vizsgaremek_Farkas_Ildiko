@@ -13,7 +13,8 @@ public class SearchPageTest extends BaseTest {
     @DisplayName("Adatok listázása - szűrés")
     @Test
     public void dataListTest() {
-        SearchPage.dataListSearchToFile("gorgeous");
+        SearchPage.searchKeyword("gorgeous");
+        SearchPage.textToFile();
         String data = Utils.readFromFile("Search_result.txt");
         SearchPageTest.refresh();
         String expected = SearchPage.searchExpectedText()+ ("\n");

@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BookPageTest extends BaseTest {
 
-    @DisplayName("Adatok lementése felületről teszt - Könyv bemutató")
+    @DisplayName("Adatok lementése felületről teszt - könyv bemutató")
     @Test
     public void dataBookSaveToFileTest(){
         BookPage.dataBookSaveToFile();

@@ -20,15 +20,21 @@ public class Utils {
             ChromeOptions options = new ChromeOptions();
             //options.addArguments("--no-sandbox");
             //options.addArguments("--disable-dev-shm-usage");
-            //options.addArguments("--disable-notifications");
             options.addArguments("--incognito");
-            options.addArguments("--headless");
             //options.setHeadless(true);
             //options.setExperimentalOption("excludeSwitches", "disable-popup-blocking");
-            options.addArguments("start-maximized");
             driver = new ChromeDriver(options);
             driver.get("https://skinsmart.hu/");
             // driver.manage().window().maximize();
+            options.addArguments("--window-size=1920,1080");
+            options.addArguments("--disable-notifications");
+            options.addArguments("--disable-extensions");
+            options.addArguments("start-maximized");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--headless");
+            options.addArguments("--proxy-server='direct://");
+            options.addArguments("--proxy-bypass-list=*");
+            options.addArguments("--disable-gpu");
 
         }
         return driver;
