@@ -1,0 +1,111 @@
+[ {
+  "uid" : "284905fb8d797415",
+  "name" : "Sikertelen bejelentkezés teszt -helytelen mail",
+  "time" : {
+    "start" : 1629411889539,
+    "stop" : 1629411889703,
+    "duration" : 164
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "76012605e19fe30",
+  "name" : "Sikertelen regisztráció teszt - üres adatmezőkkel",
+  "time" : {
+    "start" : 1629411890828,
+    "stop" : 1629411890987,
+    "duration" : 159
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "196262d09cec1d94",
+  "name" : "Adatok listázása - szűrés",
+  "time" : {
+    "start" : 1629411888467,
+    "stop" : 1629411888634,
+    "duration" : 167
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "284cdffa52ebcfdd",
+  "name" : "Adatok lementése felületről teszt - könyv bemutató",
+  "time" : {
+    "start" : 1629411890300,
+    "stop" : 1629411890455,
+    "duration" : 155
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9588b7104846e120",
+  "name" : "Sikertelen bejelentkezés teszt -üres mail",
+  "time" : {
+    "start" : 1629411890120,
+    "stop" : 1629411890280,
+    "duration" : 160
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ab9c6f858d7443b5",
+  "name" : "Több oldalas lista bejárás teszt",
+  "time" : {
+    "start" : 1629411890472,
+    "stop" : 1629411890646,
+    "duration" : 174
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2c6e3daac14a34e6",
+  "name" : "Adadtkezelési nyilatkozat használata teszt - adatmentéssel",
+  "time" : {
+    "start" : 1629411888165,
+    "stop" : 1629411888441,
+    "duration" : 276
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dd0526aacd98f788",
+  "name" : "Sikeres bejelentkezés teszt",
+  "time" : {
+    "start" : 1629411889152,
+    "stop" : 1629411889384,
+    "duration" : 232
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "48e7e72e410f7d3e",
+  "name" : "Sikertelen bejelentkezés teszt -helytelen jelszó",
+  "time" : {
+    "start" : 1629411889720,
+    "stop" : 1629411890116,
+    "duration" : 396
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ae515eec44634b12",
+  "name" : "Sikertelen bejelentkezés teszt -üres jelszó",
+  "time" : {
+    "start" : 1629411889390,
+    "stop" : 1629411889534,
+    "duration" : 144
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2ca4acbc48583b9e",
+  "name" : "Sikertelen regisztráció teszt - generált adatokkal, jelszómegerősítés különbözik",
+  "time" : {
+    "start" : 1629411890663,
+    "stop" : 1629411890825,
+    "duration" : 162
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
