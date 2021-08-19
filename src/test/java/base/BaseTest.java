@@ -11,14 +11,15 @@ public class BaseTest {   //implement TestWatcher?
 
     static WebDriver driver;
 
-    @BeforeAll
-    public static void init() {
-        driver = Utils.getDriver();
-    }
+//    @BeforeAll
+//    public static void init() {
+//
+//    }
 
 
     @BeforeEach
     public void Setup() {
+        driver = Utils.getDriver();
         driver.get("https://skinsmart.hu/");
         HomePage.clickAcceptCookies();
     }
