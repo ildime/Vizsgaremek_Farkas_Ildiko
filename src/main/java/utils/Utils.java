@@ -1,6 +1,7 @@
 package utils;
 
 import io.github.bonigarcia.wdm.WebDriverManager;;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -19,8 +20,7 @@ public class Utils {
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--no-sandbox");
-            options.addArguments("--headless");
-            //options.addArguments("--disable-dev-shm-usage");
+//            options.addArguments("--headless");
             options.addArguments("--incognito");
             //options.setHeadless(true);
             //options.setExperimentalOption("excludeSwitches", "disable-popup-blocking");
@@ -112,5 +112,9 @@ public class Utils {
                 result = true;
             }
         } return result;
+    }
+
+    public static void refreshToLogoutPage(){
+        driver.navigate().refresh();
     }
 }

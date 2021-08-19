@@ -42,6 +42,8 @@ public class SearchPage {
         return result;
     }
 
+
+
     public static String listToString() {
         String listString = "";
         for (String s : SearchPage.searchResultText()) {

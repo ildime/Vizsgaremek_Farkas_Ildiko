@@ -20,7 +20,6 @@ public class ExpertAdvicePage {
             List<WebElement> blogtitels = driver.findElements(TITEL);
             for (WebElement blogtitel : blogtitels) {
                 String data = blogtitel.getText();
-
                 Utils.writeToFileAppend("Blogtitel.txt", data);
             }
             try {

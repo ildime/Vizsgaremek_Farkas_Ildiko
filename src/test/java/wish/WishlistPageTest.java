@@ -12,13 +12,17 @@ import pages.LogoutPage;
 import pages.SearchPage;
 import pages.WishlistPage;
 import utils.Utils;
-
 import java.io.ByteArrayInputStream;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class WishlistPageTest extends BaseTest{
+
+    static WebDriver driver = Utils.getDriver();
+
+    @Step("TakeScreenshot")
+    public void TakeScreenshot(WebDriver driver){
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+    }
 
     @DisplayName("Új adat bevitel")
     @Test
@@ -28,21 +32,8 @@ public class WishlistPageTest extends BaseTest{
         WishlistPage.wishlistData();
         String wishlistSendMsg = WishlistPage.wishlistSendMsg();
         assertEquals("Your Wishlist has been shared.", wishlistSendMsg);
+        WishlistPage.itemRemove();
         LogoutPage.logoutSuccessful();
-    }
-
-    static WebDriver driver = Utils.getDriver();
-
-//    @Step("TakeScreenshot")
-//    public void TakeScreenshot(WebDriver driver){
-//        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-//        System.out.println(driver.getCurrentUrl());
-//    }
-
-    @Step("TakeScreenshot")
-    public void TakeScreenshot(WebDriver driver){
-        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-        assertTrue(true);
     }
 
     @DisplayName("Adat vagy adatok törlése")
@@ -54,6 +45,10 @@ public class WishlistPageTest extends BaseTest{
         TakeScreenshot(driver);
         WishlistPage.wishlistDataDelete();
         TakeScreenshot(driver);
+        WishlistPage.itemRemove();
+        TakeScreenshot(driver);
+        String wishlistEmpty = WishlistPage.wishlistEmpty();
+        assertEquals("Még nem raktál kívánságlistába egy terméket sem.", wishlistEmpty);
         LogoutPage.logoutSuccessful();
     }
 }

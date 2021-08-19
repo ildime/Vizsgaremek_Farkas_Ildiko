@@ -5,8 +5,6 @@ import org.junit.jupiter.api.*;
 import pages.ExpertAdvicePage;
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.io.IOException;
-
 
 public class ExpertAdvicePageTest extends BaseTest {
 
