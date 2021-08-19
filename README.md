@@ -27,20 +27,19 @@ Az oldalon nincs lehetőség adatkezelési tájékoztató elfogasására, ezért
 A szakértői tanácsok lapon a teszt végiglapozza a blog listát, és közben kíírja egy Blogtitel.txt fájlba a blogcímeket, majd rávizsgál, hogy a lementett txt blogcímek száma egyezik-e a honlapon szereplő jelenlegi 47 blogszámmal.
 
 6. Kívánságlista elküldése egy üzenet kíséretében (Új adat bevitel) (WishlistPage+WishlistPageTest)
-Bejelentkezés és egy keresőszavas szűrés után a kívánságlistába helyezve egy terméket, lehetőség van megjegyzést írni hozzá, illetve a kívánságlistát egy üzenet kíséretében maximum 5 email címre elküldeni. Az adat bevitel és a levél elküldése történik a tesztben, de nem érkezik meg a kívánságlista a címzetnek, annak ellenére, hogy sikeres üzenetküldési visszaigazolást küld a rendszer.
+Bejelentkezés és egy keresőszavas szűrés után a kívánságlistába helyezve egy terméket, lehetőség van megjegyzést írni hozzá, illetve a kívánságlistát egy üzenet kíséretében maximum 5 email címre elküldeni. Az adat bevitelt és a levél elküldését vizsgálja a tesztben, de nem érkezik meg a kívánságlista a címzetnek, annak ellenére, hogy sikeres üzenetküldési visszaigazolást küld a rendszer.
 
 7. Számlázási cím módosítása (Ismételt és sorozatos adatbevitel adatforrásból)(CustomerAccountPage+CustomerAccountPageTest+Address.txt)
-Bejelentkezés után az alapértelmezett számlázási címet szerkesztjük. A meglévő címeket töröljük, és az előre létrehozott Address.txt fájlból beolvasva módosítjuk az adatokat, és a sikeres mentésről üzenetet érkezik. (A mentésről kapott sikeres üzenet angolul jelenik meg.)(A cím szerkesztése oldalon a kitölthető nyomtatvány alján "Alapértelmezett számlázási cím""Alapértelmezett szállítási cím" feliratoknak nincs semmi funkciója)
+Bejelentkezés után az alapértelmezett számlázási címet szerkesztjük. A meglévő címeket töröljük, és az előre létrehozott Address.txt fájlból beolvasva módosítjuk az adatokat, és a sikeres mentésről üzenetet érkezik. (A mentésről kapott sikeres üzenet angolul jelenik meg, illetve a cím szerkesztésének oldalán a kitölthető nyomtatvány alján "Alapértelmezett számlázási cím""Alapértelmezett szállítási cím" feliratoknak nincs semmi funkciója)(A generált riportban képernyőfotók is elérhetőek a teszthez.)
 
 8. Jelszó módosítása (Meglévő adat módosítása) (CustomerAccountPage+CustomerAccountPageTest)
-Ugyan már az elöző 7-es pont (ismételt adatbevitel adatforrásból) is a meglévő adat módosításával történik, de itt a jelszó sikeres megváltoztatását, és egy sikertelen próbálkozás alkalmával kapott hibaüzenetet vizsgál a teszt. (A rendszer egy angol nyelvű automatikus email üzenetet küld a jelszó megváltoztatásáról, amelyben kéri, hogy ha nem a fióktulajdonos engedélyezte a műveletet, akkor lépjen kapcsolatba a Skinsmart-al. Az emailben nincs kontakt megadva, csak a hello@skinsmart.hu-ról érkező levelezési cím elérhető.)
+Ugyan már az elöző 7-es pont (ismételt adatbevitel adatforrásból) is a meglévő adat módosításával történik, de itt a jelszó sikeres megváltoztatását, és egy sikertelen próbálkozás alkalmával kapott hibaüzenetet vizsgál a teszt. (A rendszer egy angol nyelvű automatikus email üzenetet küld a jelszó megváltoztatásáról, amelyben kéri, hogy ha nem a fióktulajdonos engedélyezte a műveletet, akkor lépjen kapcsolatba a Skinsmart-al. Az emailben nincs kontakt megadva, csak a hello@skinsmart.hu-ról érkező levelezési cím elérhető.)(A generált riportban képernyőfotók is elérhetőek a teszthez.)
 
 9. Kívánságlistás termékhez fűzőtt megjegyzés szerkesztése (Adat vagy adatok törlése) (WishlistPage+WishlistPageTest)
-
-
+Bejelentkezés és szűrés után a terméket a kívánságlistába helyezve megjegyzés írunk a termékhez, majd kitörüljük a megjegyzést, illetve a terméket is a kívánságlistáról. A tesztjelentésben képernyőfotók dokumentálják a tesztállapotokat.
 
 10. Egy termék leírásának vizsgálata (Adatok lementése felületről) (BookPage+BookPageTest+Book.txt)
 Miután elnavigálunk a könyv termékhez, annak bemutatását leírását lementjük egy txt file-ba. Eztán ennek a lementett file-nak a tartalmát összehasonlítjuk az oldalon található szöveggel.
 
 11. Kijelentkezés (LogoutPage+LogoutPageTest)
-A kijelentkezés funkciónál, bejelentkezik a felhasználó, majd a kijelentkezést követően ráfrissít az oldalra, és rávizsgál, hogy valóban kijelentkezett.
+A kijelentkezés funkciónál, bejelentkezik a felhasználó, majd a kijelentkezést követően ráfrissít az oldalra, és rávizsgál, hogy valóban kijelentkezett.(A generált riportban képernyőfotók is elérhetőek a teszthez.)
