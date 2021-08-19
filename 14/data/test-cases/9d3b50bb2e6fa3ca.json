@@ -1,0 +1,213 @@
+{
+  "uid" : "9d3b50bb2e6fa3ca",
+  "name" : "Sikeres kijeletkezés teszt",
+  "fullName" : "logout.LogoutPageTest.LogoutTest",
+  "historyId" : "dc7ff221c598827b8104251850f4b5b",
+  "time" : {
+    "start" : 1629364513300,
+    "stop" : 1629364519197,
+    "duration" : 5897
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1629364513304,
+      "stop" : 1629364513886,
+      "duration" : 582
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "init",
+    "time" : {
+      "start" : 1629364481821,
+      "stop" : 1629364513242,
+      "duration" : 31421
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629364519076,
+      "stop" : 1629364519189,
+      "duration" : 113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-348"
+  }, {
+    "name" : "thread",
+    "value" : "2841@fv-az74-348.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "logout.LogoutPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "logout.LogoutPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "LogoutTest"
+  }, {
+    "name" : "suite",
+    "value" : "logout.LogoutPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "2a813f5ff58d2c51",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/13//#testresult/2a813f5ff58d2c51",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629364220955,
+          "stop" : 1629364226446,
+          "duration" : 5491
+        }
+      }, {
+        "uid" : "b31201e1816d19ec",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/12//#testresult/b31201e1816d19ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629360833328,
+          "stop" : 1629360839302,
+          "duration" : 5974
+        }
+      }, {
+        "uid" : "7a1487030d0fe42e",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/10//#testresult/7a1487030d0fe42e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629326878107,
+          "stop" : 1629326883864,
+          "duration" : 5757
+        }
+      }, {
+        "uid" : "3523281a64e019ba",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/9//#testresult/3523281a64e019ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629326325137,
+          "stop" : 1629326331356,
+          "duration" : 6219
+        }
+      }, {
+        "uid" : "8a951d56a4a60014",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/8//#testresult/8a951d56a4a60014",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629326234568,
+          "stop" : 1629326239962,
+          "duration" : 5394
+        }
+      }, {
+        "uid" : "4787f02095f0e4d1",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/7//#testresult/4787f02095f0e4d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629323431558,
+          "stop" : 1629323437859,
+          "duration" : 6301
+        }
+      }, {
+        "uid" : "4c52760e72742b51",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/6//#testresult/4c52760e72742b51",
+        "status" : "broken",
+        "statusDetails" : "No ParameterResolver registered for parameter [org.openqa.selenium.WebDriver arg0] in constructor [public logout.LogoutPageTest(org.openqa.selenium.WebDriver)].",
+        "time" : {
+          "start" : 1629297291316,
+          "stop" : 1629297291352,
+          "duration" : 36
+        }
+      }, {
+        "uid" : "5bab0532c0d833b3",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/5//#testresult/5bab0532c0d833b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629297048690,
+          "stop" : 1629297054632,
+          "duration" : 5942
+        }
+      }, {
+        "uid" : "4c3d782b4f61075c",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/4//#testresult/4c3d782b4f61075c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629296767188,
+          "stop" : 1629296773058,
+          "duration" : 5870
+        }
+      }, {
+        "uid" : "dd168856444d593f",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/3//#testresult/dd168856444d593f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629296235441,
+          "stop" : 1629296240193,
+          "duration" : 4752
+        }
+      }, {
+        "uid" : "b5ad6a26a2e959f4",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/2//#testresult/b5ad6a26a2e959f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629294883452,
+          "stop" : 1629294888261,
+          "duration" : 4809
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9d3b50bb2e6fa3ca.json",
+  "parameterValues" : [ ]
+}
