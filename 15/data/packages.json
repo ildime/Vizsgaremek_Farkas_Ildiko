@@ -1,0 +1,262 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "logout.LogoutPageTest",
+    "children" : [ {
+      "name" : "LogoutTest",
+      "uid" : "f2f8e80101afd80e",
+      "parentUid" : "1293c0185a9b042289c0baa0f149b1c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629365065823,
+        "stop" : 1629365089592,
+        "duration" : 23769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "logout.LogoutPageTest"
+  }, {
+    "name" : "privacypolicy.PrivacyPolicyPageTest",
+    "children" : [ {
+      "name" : "PrivacyPolicySaveToFileTest",
+      "uid" : "718217b5c47dd182",
+      "parentUid" : "4163c0b127052bf96d07f418b27769f8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629365089794,
+        "stop" : 1629365089843,
+        "duration" : 49
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "privacypolicy.PrivacyPolicyPageTest"
+  }, {
+    "name" : "search.SearchPageTest",
+    "children" : [ {
+      "name" : "dataListTest",
+      "uid" : "40e812503d980594",
+      "parentUid" : "f2f597c5d244e9fc2b611486bd705bbf",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629365089877,
+        "stop" : 1629365089905,
+        "duration" : 28
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "search.SearchPageTest"
+  }, {
+    "name" : "customer.CustomerAccountPageTest",
+    "children" : [ {
+      "name" : "changePasswordTest",
+      "uid" : "d1c8830bd985d507",
+      "parentUid" : "2ad0273644997566732894a044af9308",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629365089936,
+        "stop" : 1629365089953,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "changePasswordInvalidTest",
+      "uid" : "6ea0d1f2514c3d07",
+      "parentUid" : "2ad0273644997566732894a044af9308",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629365089979,
+        "stop" : 1629365090005,
+        "duration" : 26
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addressDataTest",
+      "uid" : "29d332fff01a14e5",
+      "parentUid" : "2ad0273644997566732894a044af9308",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629365090011,
+        "stop" : 1629365090030,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "customer.CustomerAccountPageTest"
+  }, {
+    "name" : "wish.WishlistPageTest",
+    "children" : [ {
+      "name" : "wishlistDataDeleteTest",
+      "uid" : "fa42b333af7ad594",
+      "parentUid" : "c36014e4e3a9cece1f6c83c012529569",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629365090079,
+        "stop" : 1629365090102,
+        "duration" : 23
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "wishlistDataTest",
+      "uid" : "d2236ead5eac093c",
+      "parentUid" : "c36014e4e3a9cece1f6c83c012529569",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629365090107,
+        "stop" : 1629365090130,
+        "duration" : 23
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "wish.WishlistPageTest"
+  }, {
+    "name" : "login.LoginPageTest",
+    "children" : [ {
+      "name" : "LoginTest",
+      "uid" : "7b86cbd018756bdb",
+      "parentUid" : "181798f80c52b54e652a0a8d716255c9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629365090152,
+        "stop" : 1629365090195,
+        "duration" : 43
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "LoginInvalidEmptyPWTest",
+      "uid" : "371e13632e2c035b",
+      "parentUid" : "181798f80c52b54e652a0a8d716255c9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629365090210,
+        "stop" : 1629365090238,
+        "duration" : 28
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "LoginInvalidEmailTest",
+      "uid" : "b0c3aa022e39c478",
+      "parentUid" : "181798f80c52b54e652a0a8d716255c9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629365090241,
+        "stop" : 1629365090258,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "LoginInvalidPasswordTest",
+      "uid" : "fb5c0fcc8fd1fe53",
+      "parentUid" : "181798f80c52b54e652a0a8d716255c9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629365090277,
+        "stop" : 1629365090291,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "LoginInvalidEmptyETest",
+      "uid" : "b03d81a10ed0964b",
+      "parentUid" : "181798f80c52b54e652a0a8d716255c9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629365090296,
+        "stop" : 1629365090316,
+        "duration" : 20
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "login.LoginPageTest"
+  }, {
+    "name" : "book.BookPageTest",
+    "children" : [ {
+      "name" : "dataBookSaveToFileTest",
+      "uid" : "36fe1473726b7806",
+      "parentUid" : "b2872d150fa5ce6200c73edafd97d028",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629365090322,
+        "stop" : 1629365090356,
+        "duration" : 34
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "book.BookPageTest"
+  }, {
+    "name" : "expertadvice.ExpertAdvicePageTest",
+    "children" : [ {
+      "name" : "paginationTest",
+      "uid" : "db093d6650331b06",
+      "parentUid" : "374b80ae7f70903e05bc90bcb13791b7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629365090364,
+        "stop" : 1629365090391,
+        "duration" : 27
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "expertadvice.ExpertAdvicePageTest"
+  }, {
+    "name" : "registration.RegistrationPageTest",
+    "children" : [ {
+      "name" : "RegistrationInvalidPasswordTest",
+      "uid" : "d797e0db90074655",
+      "parentUid" : "ccf4ea8efbd762e2934dbb122578b753",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629365090409,
+        "stop" : 1629365090430,
+        "duration" : 21
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "RegistrationEmptyFieldTest",
+      "uid" : "e2e90628e6cf566d",
+      "parentUid" : "ccf4ea8efbd762e2934dbb122578b753",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629365090437,
+        "stop" : 1629365090456,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "registration.RegistrationPageTest"
+  } ],
+  "name" : "packages"
+}
