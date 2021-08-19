@@ -35,7 +35,7 @@ Bejelentkezés után az alapértelmezett számlázási címet szerkesztjük. A m
 8. Jelszó módosítása (Meglévő adat módosítása) (CustomerAccountPage+CustomerAccountPageTest)
 Ugyan már az elöző 7-es pont (ismételt adatbevitel adatforrásból) is a meglévő adat módosításával történik, de itt a jelszó sikeres megváltoztatását, és egy sikertelen próbálkozás alkalmával kapott hibaüzenetet vizsgál a teszt. A rendszer egy angol nyelvű automatikus email üzenetet küld a jelszó megváltoztatásáról, amelyben kéri, hogy ha nem a fióktulajdonos engedélyezte a műveletet, akkor lépjen kapcsolatba a Skinsmart-al. (Az emailben nincs kontakt megadva, csak a hello@skinsmart.hu-ról érkező levelezési cím elérhető.)
 
-9. Kívánságlistás termékhez fözőtt megjegyzés szerkesztése (Adat vagy adatok törlése) (WishlistPage+WishlistPageTest)
+9. Kívánságlistás termékhez fűzőtt megjegyzés szerkesztése (Adat vagy adatok törlése) (WishlistPage+WishlistPageTest)
 
 
 
