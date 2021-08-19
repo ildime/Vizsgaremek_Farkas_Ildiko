@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "Sikeres kijeletkezés teszt",
+        "uid" : "39d714c372a5e99e",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629410345805,
+          "stop" : 1629410361718,
+          "duration" : 15913
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Adadtkezelési nyilatkozat használata teszt - adatmentéssel",
+        "uid" : "68564d6431e7f6a3",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629410361847,
+          "stop" : 1629410365908,
+          "duration" : 4061
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@class='product-brand'] (tried for 5 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Adatok listázása - szűrés",
+        "uid" : "6fba88f7cc33694e",
+        "parentUid" : "bd4f7d65d7b4dc1874c8d30bdeb3ff52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629410365935,
+          "stop" : 1629410382653,
+          "duration" : 16718
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd4f7d65d7b4dc1874c8d30bdeb3ff52"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
