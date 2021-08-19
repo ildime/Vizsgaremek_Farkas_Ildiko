@@ -26,6 +26,6 @@ public class BaseTest {   //implement TestWatcher?
     @AfterEach
     public void Close(){driver.close();}
 
-    @AfterAll  //kilép az összes teszt után
-    public static void quitDriver(){driver.quit();}
+//    @AfterAll  //kilép az összes teszt után
+//    public static void quitDriver(){driver.quit();}
 }
