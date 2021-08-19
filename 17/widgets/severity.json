@@ -1,0 +1,171 @@
+[ {
+  "uid" : "fccbb337c1ec077a",
+  "name" : "Meglévő adat módosítása - jelszó módosítása",
+  "time" : {
+    "start" : 1629370825135,
+    "stop" : 1629370825149,
+    "duration" : 14
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1e2d137c0dce3cfd",
+  "name" : "Meglévő adat módosítása - sikertelen jelszó módosítás",
+  "time" : {
+    "start" : 1629370825152,
+    "stop" : 1629370825166,
+    "duration" : 14
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "69a9a999141dfe2b",
+  "name" : "Adatok listázása - szűrés",
+  "time" : {
+    "start" : 1629370825101,
+    "stop" : 1629370825117,
+    "duration" : 16
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a11a429be97ccd64",
+  "name" : "Adadtkezelési nyilatkozat használata teszt - adatmentéssel",
+  "time" : {
+    "start" : 1629370825032,
+    "stop" : 1629370825086,
+    "duration" : 54
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "319ce1b0b869bb35",
+  "name" : "Több oldalas lista bejárás teszt",
+  "time" : {
+    "start" : 1629370825358,
+    "stop" : 1629370825375,
+    "duration" : 17
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8c234e6bbc09cc7f",
+  "name" : "Ismételt és sorozatos adatbevitel adatforrásból - profil kitöltés",
+  "time" : {
+    "start" : 1629370825172,
+    "stop" : 1629370825184,
+    "duration" : 12
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bfda9a3bddb4d6a3",
+  "name" : "Sikertelen regisztráció teszt - generált adatokkal, jelszómegerősítés különbözik",
+  "time" : {
+    "start" : 1629370825379,
+    "stop" : 1629370825391,
+    "duration" : 12
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7ed9a704d966a909",
+  "name" : "Sikertelen bejelentkezés teszt -helytelen mail",
+  "time" : {
+    "start" : 1629370825283,
+    "stop" : 1629370825294,
+    "duration" : 11
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b3f5e69031751dfc",
+  "name" : "Sikeres kijeletkezés teszt",
+  "time" : {
+    "start" : 1629370805562,
+    "stop" : 1629370824958,
+    "duration" : 19396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b193ebb2f3e445fb",
+  "name" : "Sikertelen bejelentkezés teszt -üres jelszó",
+  "time" : {
+    "start" : 1629370825270,
+    "stop" : 1629370825281,
+    "duration" : 11
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "eb0d33d379630a1a",
+  "name" : "Adatok lementése felületről teszt - könyv bemutató",
+  "time" : {
+    "start" : 1629370825327,
+    "stop" : 1629370825344,
+    "duration" : 17
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "752f49cc5ec6868b",
+  "name" : "Új adat bevitel",
+  "time" : {
+    "start" : 1629370825229,
+    "stop" : 1629370825240,
+    "duration" : 11
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "66b634ba033b96a",
+  "name" : "Sikeres bejelentkezés teszt",
+  "time" : {
+    "start" : 1629370825256,
+    "stop" : 1629370825268,
+    "duration" : 12
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c5d405a5f0c06937",
+  "name" : "Sikertelen bejelentkezés teszt -helytelen jelszó",
+  "time" : {
+    "start" : 1629370825298,
+    "stop" : 1629370825309,
+    "duration" : 11
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6261a437595b6193",
+  "name" : "Sikertelen bejelentkezés teszt -üres mail",
+  "time" : {
+    "start" : 1629370825311,
+    "stop" : 1629370825321,
+    "duration" : 10
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5d4549be82c638d8",
+  "name" : "Sikertelen regisztráció teszt - üres adatmezőkkel",
+  "time" : {
+    "start" : 1629370825394,
+    "stop" : 1629370825405,
+    "duration" : 11
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b4faff0df453a69e",
+  "name" : "Adat vagy adatok törlése",
+  "time" : {
+    "start" : 1629370825204,
+    "stop" : 1629370825220,
+    "duration" : 16
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
