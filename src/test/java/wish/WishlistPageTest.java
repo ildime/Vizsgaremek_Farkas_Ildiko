@@ -45,7 +45,7 @@ public class WishlistPageTest extends BaseTest{
         assertTrue(true);
     }
 
-    @DisplayName("Adat vagy adadtok törlése")
+    @DisplayName("Adat vagy adatok törlése")
     @Test
     public void wishlistDataDeleteTest() {
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");
