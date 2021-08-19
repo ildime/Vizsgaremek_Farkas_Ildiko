@@ -9,7 +9,7 @@ import utils.Utils;
 
 public class BaseTest {   //implement TestWatcher?
 
-    static WebDriver driver;
+    WebDriver driver;
 
 //    @BeforeAll
 //    public static void init() {
