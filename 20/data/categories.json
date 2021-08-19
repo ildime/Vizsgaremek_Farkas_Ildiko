@@ -1,0 +1,221 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az28-897', ip: '10.1.0.9', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.FkWSHU}, goog:chromeOptions: {debuggerAddress: localhost:33117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fd75cadd250848cfe8b6a7c480d43cd0",
+      "children" : [ {
+        "name" : "Adadtkezelési nyilatkozat használata teszt - adatmentéssel",
+        "uid" : "14f5e804fcb2e55c",
+        "parentUid" : "47e2b4870015d0c094f66f0cc4f6fcb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629372704636,
+          "stop" : 1629372704682,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Adatok listázása - szűrés",
+        "uid" : "6eb05cbc42cc7cc1",
+        "parentUid" : "47e2b4870015d0c094f66f0cc4f6fcb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629372704718,
+          "stop" : 1629372704749,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Meglévő adat módosítása - jelszó módosítása",
+        "uid" : "b83c5b1e3d08d6d7",
+        "parentUid" : "47e2b4870015d0c094f66f0cc4f6fcb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629372704773,
+          "stop" : 1629372704788,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Meglévő adat módosítása - sikertelen jelszó módosítás",
+        "uid" : "b94c982de81e3699",
+        "parentUid" : "47e2b4870015d0c094f66f0cc4f6fcb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629372704811,
+          "stop" : 1629372704837,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Ismételt és sorozatos adatbevitel adatforrásból - profil kitöltés",
+        "uid" : "ed49865991123432",
+        "parentUid" : "47e2b4870015d0c094f66f0cc4f6fcb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629372704854,
+          "stop" : 1629372704875,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Adat vagy adatok törlése",
+        "uid" : "ffd4ac447ece5d99",
+        "parentUid" : "47e2b4870015d0c094f66f0cc4f6fcb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629372704903,
+          "stop" : 1629372704919,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Új adat bevitel",
+        "uid" : "6946d16bfdfc6284",
+        "parentUid" : "47e2b4870015d0c094f66f0cc4f6fcb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629372704928,
+          "stop" : 1629372704948,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Sikeres bejelentkezés teszt",
+        "uid" : "a055c6dd9195fec5",
+        "parentUid" : "47e2b4870015d0c094f66f0cc4f6fcb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629372704972,
+          "stop" : 1629372704991,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Sikertelen bejelentkezés teszt -üres jelszó",
+        "uid" : "6ccd11936b8b71d0",
+        "parentUid" : "47e2b4870015d0c094f66f0cc4f6fcb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629372705001,
+          "stop" : 1629372705023,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Sikertelen bejelentkezés teszt -helytelen mail",
+        "uid" : "a05897a58d59a961",
+        "parentUid" : "47e2b4870015d0c094f66f0cc4f6fcb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629372705028,
+          "stop" : 1629372705043,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Sikertelen bejelentkezés teszt -helytelen jelszó",
+        "uid" : "b4f09f38e987c42b",
+        "parentUid" : "47e2b4870015d0c094f66f0cc4f6fcb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629372705049,
+          "stop" : 1629372705066,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Sikertelen bejelentkezés teszt -üres mail",
+        "uid" : "c1c653ce145a426e",
+        "parentUid" : "47e2b4870015d0c094f66f0cc4f6fcb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629372705072,
+          "stop" : 1629372705090,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Adatok lementése felületről teszt - könyv bemutató",
+        "uid" : "ae8f1e956650a4eb",
+        "parentUid" : "47e2b4870015d0c094f66f0cc4f6fcb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629372705103,
+          "stop" : 1629372705121,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Több oldalas lista bejárás teszt",
+        "uid" : "8dfaffdbd850033",
+        "parentUid" : "47e2b4870015d0c094f66f0cc4f6fcb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629372705130,
+          "stop" : 1629372705146,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Sikertelen regisztráció teszt - generált adatokkal, jelszómegerősítés különbözik",
+        "uid" : "a3e3669962cb43fd",
+        "parentUid" : "47e2b4870015d0c094f66f0cc4f6fcb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629372705161,
+          "stop" : 1629372705183,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Sikertelen regisztráció teszt - üres adatmezőkkel",
+        "uid" : "3f60db4cc64a42d7",
+        "parentUid" : "47e2b4870015d0c094f66f0cc4f6fcb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629372705198,
+          "stop" : 1629372705218,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "47e2b4870015d0c094f66f0cc4f6fcb2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
