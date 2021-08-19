@@ -1,0 +1,127 @@
+{
+  "uid" : "64ae0943198657a4",
+  "name" : "Sikertelen bejelentkezés teszt -helytelen mail",
+  "fullName" : "login.LoginPageTest.LoginInvalidEmailTest",
+  "historyId" : "7c941a57c8fd47d6a6ef796138fc6cc2",
+  "time" : {
+    "start" : 1629381252387,
+    "stop" : 1629381262105,
+    "duration" : 9718
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1629381252388,
+      "stop" : 1629381260162,
+      "duration" : 7774
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629381261997,
+      "stop" : 1629381262104,
+      "duration" : 107
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az28-897"
+  }, {
+    "name" : "thread",
+    "value" : "2952@fv-az28-897.ForkJoinPool-1-worker-3(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "login.LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "login.LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "LoginInvalidEmailTest"
+  }, {
+    "name" : "suite",
+    "value" : "login.LoginPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "bc82c353963a6b63",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/22//#testresult/bc82c353963a6b63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629373369496,
+          "stop" : 1629373381290,
+          "duration" : 11794
+        }
+      }, {
+        "uid" : "82139f800fe397db",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/21//#testresult/82139f800fe397db",
+        "status" : "broken",
+        "statusDetails" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-854', ip: '10.1.0.90', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.Co7IJ6}, goog:chromeOptions: {debuggerAddress: localhost:38249}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 820d1c1cab99af18e8204148c39c8747",
+        "time" : {
+          "start" : 1629372872206,
+          "stop" : 1629372872220,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "a05897a58d59a961",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/20//#testresult/a05897a58d59a961",
+        "status" : "broken",
+        "statusDetails" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az28-897', ip: '10.1.0.9', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.FkWSHU}, goog:chromeOptions: {debuggerAddress: localhost:33117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fd75cadd250848cfe8b6a7c480d43cd0",
+        "time" : {
+          "start" : 1629372705028,
+          "stop" : 1629372705043,
+          "duration" : 15
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "64ae0943198657a4.json",
+  "parameterValues" : [ ]
+}
