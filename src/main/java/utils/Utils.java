@@ -20,7 +20,7 @@ public class Utils {
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--no-sandbox");
-//            options.addArguments("--headless");
+            options.addArguments("--headless");
             options.addArguments("--incognito");
             //options.setHeadless(true);
             //options.setExperimentalOption("excludeSwitches", "disable-popup-blocking");

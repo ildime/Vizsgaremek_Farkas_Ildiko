@@ -22,7 +22,7 @@ public class BaseTest {   //implement TestWatcher?
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
-//        options.addArguments("--headless");
+        options.addArguments("--headless");
         options.addArguments("--incognito");
         options.addArguments("--window-size=1920,1080");
         options.addArguments("--disable-notifications");
@@ -33,8 +33,8 @@ public class BaseTest {   //implement TestWatcher?
         HomePage.clickAcceptCookies();
     }
 
-//    @AfterEach
-//    public void Close(){driver.close();}
+    @AfterEach
+    public void Close(){driver.close();}
 
 //    @AfterAll  //kilép az összes teszt után
 //    public static void quitDriver(){driver.quit();}
