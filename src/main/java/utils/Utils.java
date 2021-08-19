@@ -23,8 +23,6 @@ public class Utils {
             options.addArguments("--incognito");
             //options.setHeadless(true);
             //options.setExperimentalOption("excludeSwitches", "disable-popup-blocking");
-            driver = new ChromeDriver(options);
-            driver.get("https://skinsmart.hu/");
             // driver.manage().window().maximize();
             options.addArguments("--window-size=1920,1080");
             options.addArguments("--disable-notifications");
@@ -35,7 +33,8 @@ public class Utils {
             options.addArguments("--proxy-server='direct://");
             options.addArguments("--proxy-bypass-list=*");
             options.addArguments("--disable-gpu");
-
+            driver = new ChromeDriver(options);
+            driver.get("https://skinsmart.hu/");
         }
         return driver;
     }
