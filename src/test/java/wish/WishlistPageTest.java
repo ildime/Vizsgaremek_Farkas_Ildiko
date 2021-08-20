@@ -24,7 +24,7 @@ public class WishlistPageTest extends BaseTest{
         Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
     }
 
-    @Order(12)
+    @Order(1)
     @DisplayName("TC-12  Új adat bevitel")
     @Test
     public void wishlistDataTest() {
@@ -37,8 +37,8 @@ public class WishlistPageTest extends BaseTest{
         LogoutPage.logoutSuccessful();
     }
 
-    @Order(16)
-    @DisplayName("Adat vagy adatok törlése")
+    @Order(2)
+    @DisplayName("TC-16  Adat vagy adatok törlése")
     @Test
     public void wishlistDataDeleteTest() {
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");

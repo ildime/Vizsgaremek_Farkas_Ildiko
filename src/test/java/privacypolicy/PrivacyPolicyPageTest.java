@@ -8,7 +8,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class PrivacyPolicyPageTest extends BaseTest {
 
-    @Order(9)
     @DisplayName("TC-9  Adatkezelési nyilatkozat használata teszt - adatmentéssel")
     @Test
     public void PrivacyPolicySaveToFileTest(){

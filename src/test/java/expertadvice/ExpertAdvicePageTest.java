@@ -8,7 +8,6 @@ import java.io.FileReader;
 
 public class ExpertAdvicePageTest extends BaseTest {
 
-    @Order(11)
     @DisplayName("TC-11  Több oldalas lista bejárás teszt")
     @Test
     public void paginationTest() {

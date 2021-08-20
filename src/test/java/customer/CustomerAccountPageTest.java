@@ -23,7 +23,7 @@ public class CustomerAccountPageTest extends BaseTest {
         Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
     }
 
-    @Order(13)
+    @Order(1)
     @DisplayName("TC-13  Ismételt és sorozatos adatbevitel adatforrásból - számlázási cím módosítása")
     @Test
     public void addressDataTest() {
@@ -37,7 +37,7 @@ public class CustomerAccountPageTest extends BaseTest {
         LogoutPage.logoutSuccessful();
     }
 
-    @Order(14)
+    @Order(2)
     @DisplayName("TC-14  Meglévő adat módosítása - jelszó módosítása")
     @Test
     public void changePasswordTest(){
@@ -51,7 +51,7 @@ public class CustomerAccountPageTest extends BaseTest {
         LogoutPage.logoutSuccessful();
     }
 
-    @Order(15)
+    @Order(3)
     @DisplayName("TC-15  Meglévő adat módosítása - sikertelen jelszó módosítás")
     @Test
     public void changePasswordInvalidTest(){

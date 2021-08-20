@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class LoginPageTest extends BaseTest {
 
-    @Order(4)
+    @Order(1)
     @DisplayName("TC-4  Sikeres bejelentkezés teszt")
     @Test
     public void LoginTest(){
@@ -19,7 +19,7 @@ public class LoginPageTest extends BaseTest {
         LogoutPage.logoutSuccessful();
     }
 
-    @Order(5)
+    @Order(2)
     @DisplayName("TC-5  Sikertelen bejelentkezés teszt -helytelen jelszó")
     @Test
     public void LoginInvalidPasswordTest(){
@@ -28,7 +28,7 @@ public class LoginPageTest extends BaseTest {
         assertEquals("Érvénytelen felhasználói név vagy jelszó.", eMsg);
     }
 
-    @Order(6)
+    @Order(3)
     @DisplayName("TC-6  Sikertelen bejelentkezés teszt -helytelen mail")
     @Test
     public void LoginInvalidEmailTest(){
@@ -37,7 +37,7 @@ public class LoginPageTest extends BaseTest {
         assertEquals("Érvénytelen felhasználói név vagy jelszó.", eMsg);
     }
 
-    @Order(7)
+    @Order(4)
     @DisplayName("TC-7  Sikertelen bejelentkezés teszt -üres mail mező")
     @Test
     public void LoginInvalidEmptyETest(){
@@ -46,7 +46,7 @@ public class LoginPageTest extends BaseTest {
         assertEquals("Ez egy kötelező mező.", vEMsg);
     }
 
-    @Order(8)
+    @Order(5)
     @DisplayName("TC-8  Sikertelen bejelentkezés teszt -üres jelszó mező")
     @Test
     public void LoginInvalidEmptyPWTest(){

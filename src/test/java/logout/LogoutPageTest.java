@@ -24,8 +24,7 @@ public class LogoutPageTest extends BaseTest {
         Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
     }
 
-    @Order(18)
-    @DisplayName("Sikeres kijeletkezés teszt")
+    @DisplayName("TC-18  Sikeres kijeletkezés teszt")
     @Test
     public void LogoutTest(){
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");

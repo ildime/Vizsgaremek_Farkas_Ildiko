@@ -10,7 +10,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class SearchPageTest extends BaseTest {
 
-    @Order(10)
     @DisplayName("TC-10  Adatok listázása - szűrés")
     @Test
     public void dataListTest() {
