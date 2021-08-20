@@ -10,6 +10,7 @@ public class ExpertAdvicePageTest extends BaseTest {
 
     @DisplayName("TC-11  Több oldalas lista bejárás teszt")
     @Test
+    @Order(11)
     public void paginationTest() {
         ExpertAdvicePage.pagination();
 

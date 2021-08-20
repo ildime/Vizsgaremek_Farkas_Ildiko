@@ -10,6 +10,7 @@ public class BookPageTest extends BaseTest {
 
     @DisplayName("TC-17  Adatok lementése felületről teszt - könyv bemutató")
     @Test
+    @Order(17)
     public void dataBookSaveToFileTest(){
         BookPage.dataBookSaveToFile();
         String data = Utils.readFromFile("Book.txt");

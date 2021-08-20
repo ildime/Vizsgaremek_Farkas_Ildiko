@@ -26,6 +26,7 @@ public class LogoutPageTest extends BaseTest {
 
     @DisplayName("TC-18  Sikeres kijeletkezés teszt")
     @Test
+    @Order(18)
     public void LogoutTest(){
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");
         TakeScreenshot(driver);
