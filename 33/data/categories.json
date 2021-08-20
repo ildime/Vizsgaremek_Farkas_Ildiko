@@ -1,0 +1,78 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "TC-4  Sikeres bejelentkezés teszt",
+        "uid" : "e4a7dbe9b6c7b58a",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629494579974,
+          "stop" : 1629494595071,
+          "duration" : 15097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-8  Sikertelen bejelentkezés teszt -üres jelszó mező",
+        "uid" : "9c9213cb2916b270",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629494595430,
+          "stop" : 1629494600020,
+          "duration" : 4590
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-6  Sikertelen bejelentkezés teszt -helytelen mail",
+        "uid" : "901adc606e367613",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629494600044,
+          "stop" : 1629494604495,
+          "duration" : 4451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-5  Sikertelen bejelentkezés teszt -helytelen jelszó",
+        "uid" : "2bd142ccc8451bb9",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629494604519,
+          "stop" : 1629494608677,
+          "duration" : 4158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-7  Sikertelen bejelentkezés teszt -üres mail mező",
+        "uid" : "1825c50bd2921ac3",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629494608694,
+          "stop" : 1629494612319,
+          "duration" : 3625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
