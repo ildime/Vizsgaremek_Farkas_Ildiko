@@ -1,0 +1,171 @@
+[ {
+  "uid" : "af37da03a1c3290a",
+  "name" : "Adatok listázása - szűrés",
+  "time" : {
+    "start" : 1629485326567,
+    "stop" : 1629485345241,
+    "duration" : 18674
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "407799362b87d125",
+  "name" : "Sikertelen bejelentkezés teszt -üres mail",
+  "time" : {
+    "start" : 1629485428547,
+    "stop" : 1629485438470,
+    "duration" : 9923
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46ae137137b6832d",
+  "name" : "Adadtkezelési nyilatkozat használata teszt - adatmentéssel",
+  "time" : {
+    "start" : 1629485307113,
+    "stop" : 1629485315496,
+    "duration" : 8383
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a9090e736e86268a",
+  "name" : "Több oldalas lista bejárás teszt",
+  "time" : {
+    "start" : 1629485452022,
+    "stop" : 1629485469205,
+    "duration" : 17183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ea58dc56eb9725b",
+  "name" : "Sikertelen bejelentkezés teszt -üres jelszó",
+  "time" : {
+    "start" : 1629485396321,
+    "stop" : 1629485406322,
+    "duration" : 10001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abd2309edad49b45",
+  "name" : "Ismételt és sorozatos adatbevitel adatforrásból - profil kitöltés",
+  "time" : {
+    "start" : 1629485352201,
+    "stop" : 1629485369209,
+    "duration" : 17008
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38d3c0d01a798d64",
+  "name" : "Sikeres kijeletkezés teszt",
+  "time" : {
+    "start" : 1629485315748,
+    "stop" : 1629485326399,
+    "duration" : 10651
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cafb274596186b59",
+  "name" : "Adat vagy adatok törlése",
+  "time" : {
+    "start" : 1629485345285,
+    "stop" : 1629485367958,
+    "duration" : 22673
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "499ad59fa2712674",
+  "name" : "Sikeres bejelentkezés teszt",
+  "time" : {
+    "start" : 1629485383926,
+    "stop" : 1629485396317,
+    "duration" : 12391
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60ef0cbeaa111c89",
+  "name" : "Sikertelen regisztráció teszt - generált adatokkal, jelszómegerősítés különbözik",
+  "time" : {
+    "start" : 1629485469214,
+    "stop" : 1629485480628,
+    "duration" : 11414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f7a6ddf74249a82",
+  "name" : "Meglévő adat módosítása - jelszó módosítása",
+  "time" : {
+    "start" : 1629485319670,
+    "stop" : 1629485338149,
+    "duration" : 18479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b759865fb2ebafb1",
+  "name" : "Adatok lementése felületről teszt - könyv bemutató",
+  "time" : {
+    "start" : 1629485438474,
+    "stop" : 1629485452015,
+    "duration" : 13541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6bdef03c13e8b3a",
+  "name" : "Meglévő adat módosítása - sikertelen jelszó módosítás",
+  "time" : {
+    "start" : 1629485338160,
+    "stop" : 1629485352198,
+    "duration" : 14038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48afd16841d4d11f",
+  "name" : "Sikertelen bejelentkezés teszt -helytelen mail",
+  "time" : {
+    "start" : 1629485406325,
+    "stop" : 1629485417460,
+    "duration" : 11135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14a739f2394879b0",
+  "name" : "Új adat bevitel",
+  "time" : {
+    "start" : 1629485367967,
+    "stop" : 1629485383920,
+    "duration" : 15953
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fdbe33736e334540",
+  "name" : "Sikertelen bejelentkezés teszt -helytelen jelszó",
+  "time" : {
+    "start" : 1629485417463,
+    "stop" : 1629485428541,
+    "duration" : 11078
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4be9dc40df6707dc",
+  "name" : "Sikertelen regisztráció teszt - üres adatmezőkkel",
+  "time" : {
+    "start" : 1629485480631,
+    "stop" : 1629485492675,
+    "duration" : 12044
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

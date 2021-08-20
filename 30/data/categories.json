@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "Adadtkezelési nyilatkozat használata teszt - adatmentéssel",
+        "uid" : "46ae137137b6832d",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629485307113,
+          "stop" : 1629485315496,
+          "duration" : 8383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@class='product-brand'] (tried for 5 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Adatok listázása - szűrés",
+        "uid" : "af37da03a1c3290a",
+        "parentUid" : "bd4f7d65d7b4dc1874c8d30bdeb3ff52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629485326567,
+          "stop" : 1629485345241,
+          "duration" : 18674
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd4f7d65d7b4dc1874c8d30bdeb3ff52"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: button btn-update'] (tried for 5 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Adat vagy adatok törlése",
+        "uid" : "cafb274596186b59",
+        "parentUid" : "7bfc3e127dffdf695cb9ce7d54aaea78",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629485345285,
+          "stop" : 1629485367958,
+          "duration" : 22673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7bfc3e127dffdf695cb9ce7d54aaea78"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.id: email (tried for 5 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Új adat bevitel",
+        "uid" : "14a739f2394879b0",
+        "parentUid" : "a9329880f63f8987694b9e13735ced51",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629485367967,
+          "stop" : 1629485383920,
+          "duration" : 15953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a9329880f63f8987694b9e13735ced51"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
