@@ -26,7 +26,6 @@ public class WishlistPageTest extends BaseTest{
 
     @DisplayName("TC-12  Új adat bevitel")
     @Test
-    @Order(12)
     public void wishlistDataTest() {
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");
         SearchPage.searchKeyword("gorgeous");
@@ -39,7 +38,6 @@ public class WishlistPageTest extends BaseTest{
 
     @DisplayName("TC-16  Adat vagy adatok törlése")
     @Test
-    @Order(16)
     public void wishlistDataDeleteTest() {
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");
         SearchPage.searchKeyword("gorgeous");

@@ -25,7 +25,6 @@ public class CustomerAccountPageTest extends BaseTest {
 
     @DisplayName("TC-13  Ismételt és sorozatos adatbevitel adatforrásból - számlázási cím módosítása")
     @Test
-    @Order(13)
     public void addressDataTest() {
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");
         CustomerAccountPage.addressData();
@@ -39,7 +38,6 @@ public class CustomerAccountPageTest extends BaseTest {
 
     @DisplayName("TC-14  Meglévő adat módosítása - jelszó módosítása")
     @Test
-    @Order(14)
     public void changePasswordTest(){
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");
         CustomerAccountPage.changePassword("Monster", "Beauty", "Beauty");
@@ -53,7 +51,6 @@ public class CustomerAccountPageTest extends BaseTest {
 
     @DisplayName("TC-15  Meglévő adat módosítása - sikertelen jelszó módosítás")
     @Test
-    @Order(15)
     public void changePasswordInvalidTest(){
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");
         CustomerAccountPage.changePasswordInvalid("Monster", "Beauty", "beauty");

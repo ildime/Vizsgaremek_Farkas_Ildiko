@@ -10,7 +10,6 @@ public class PrivacyPolicyPageTest extends BaseTest {
 
     @DisplayName("TC-9  Adatkezelési nyilatkozat használata teszt - adatmentéssel")
     @Test
-    @Order(9)
     public void PrivacyPolicySaveToFileTest(){
         PrivacyPolicyPage.dataPPSaveToFile();
         String result = Utils.readFromFile("PrivacyPolicyText.txt");

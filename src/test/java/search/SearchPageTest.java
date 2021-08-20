@@ -12,7 +12,6 @@ public class SearchPageTest extends BaseTest {
 
     @DisplayName("TC-10  Adatok listázása - szűrés")
     @Test
-    @Order(10)
     public void dataListTest() {
         SearchPage.searchKeyword("szérum");
         SearchPage.searchResultText();

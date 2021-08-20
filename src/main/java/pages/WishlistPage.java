@@ -40,12 +40,14 @@ public class WishlistPage {
         Utils.click(ITEMS);
         Utils.click(STRESSLESS_TO_WISHLIST);
         Utils.clear(DESCIPTRION_BOX);
-        Utils.writeText(DESCIPTRION_BOX, "Nem egy szerep vagy amit magadra veszel.\n" +
-                "Nem te vagy a gyerek se, és nem te öregszel.\n" +
-                "Nem az vagy ami gyűlöl, ami irigy, ami öl.\n" +
-                "Az se ami elhagy, letilt és kitöröl.\n" +
-                "Nem egy szám vagy, nem a bőr szín, se a jó és se a rossz.\n" +
-                "Ami vagy az nem a jövő, nem a múlt, az csak a most.");
+        Utils.writeText(DESCIPTRION_BOX, "Nem egy szerep vagy amit magadra veszel\n" +
+                "Nem te vagy a gyerek se, és nem te öregszel\n" +
+                "Nem az vagy ami gyűlöl, ami irigy, ami öl\n" +
+                "Az se ami elhagy, letilt és kitöröl\n" +
+                "Nem egy szám vagy, nem a bőr szín, se a jó és se a rossz\n" +
+                "Ami vagy az nem a jövő, nem a múlt, az csak a most\n" +
+                "Nem az vagy amit tettél, bár azért te felelsz\n" +
+                "Amit nem engedsz el itt, az téged temet el....");
         Utils.click(WISHLIST_UPDATE);
     }
 
