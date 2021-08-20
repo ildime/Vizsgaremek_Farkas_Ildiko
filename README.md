@@ -38,7 +38,7 @@ Ugyan már az elöző 7-es pont (ismételt adatbevitel adatforrásból) is a meg
 9. Kívánságlistás termékhez fűzőtt megjegyzés szerkesztése (Adat vagy adatok törlése) (WishlistPage+WishlistPageTest)
 Bejelentkezés és szűrés után a terméket a kívánságlistába helyezve megjegyzés írunk a termékhez, majd kitörüljük a megjegyzést, illetve a terméket is a kívánságlistáról. A tesztjelentésben képernyőfotók dokumentálják a tesztállapotokat.
 
-10. Egy termék leírásának vizsgálata (Adatok lementése felületről) (BookPage+BookPageTest+Book.txt)
+10. Egy termék bemutató leírásának vizsgálata (Adatok lementése felületről) (BookPage+BookPageTest+Book.txt)
 Miután elnavigálunk a könyv termékhez, annak bemutatását leírását lementjük egy txt file-ba. Eztán ennek a lementett file-nak a tartalmát összehasonlítjuk az oldalon található szöveggel.
 
 11. Kijelentkezés (LogoutPage+LogoutPageTest)
