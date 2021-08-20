@@ -23,15 +23,11 @@ public class ExpertAdvicePage {
                 Utils.writeToFileAppend("Blogtitel.txt", data);
             }
             try {
-                if (driver.findElement(NEXT_BUTTON).isDisplayed())   //ha next gomb ott van akkor klikk
+                if (driver.findElement(NEXT_BUTTON).isDisplayed())
                     driver.findElement(NEXT_BUTTON).click();
-            } catch (org.openqa.selenium.NoSuchElementException ex) {  //ha nincs next gomb, dob egy exception-t
+            } catch (org.openqa.selenium.NoSuchElementException ex) {
                 break;
             }
         } while (true);
     }
-
-//    if (file.exists()) {
-//        file.delete();
-//    }
 }

@@ -1,13 +1,11 @@
 package utils;
 
 import io.github.bonigarcia.wdm.WebDriverManager;;
-import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.*;
 import java.io.*;
-import java.util.List;
 import java.util.Scanner;
 
 public class Utils {
@@ -22,9 +20,6 @@ public class Utils {
             options.addArguments("--no-sandbox");
             options.addArguments("--headless");
             options.addArguments("--incognito");
-            //options.setHeadless(true);
-            //options.setExperimentalOption("excludeSwitches", "disable-popup-blocking");
-            // driver.manage().window().maximize();
             options.addArguments("--window-size=1920,1080");
             options.addArguments("--disable-notifications");
             options.addArguments("--disable-extensions");
@@ -33,6 +28,9 @@ public class Utils {
             //options.addArguments("--proxy-server='direct://");
             //options.addArguments("--proxy-bypass-list=*");
             //options.addArguments("--disable-gpu");
+            //options.setHeadless(true);
+            //options.setExperimentalOption("excludeSwitches", "disable-popup-blocking");
+            // driver.manage().window().maximize();
             driver = new ChromeDriver(options);
             driver.get("https://skinsmart.hu/");
         }
@@ -101,17 +99,6 @@ public class Utils {
 
     public static void enter(By by){
         waitVisibility(by).sendKeys(Keys.ENTER);
-    }
-
-    public static boolean clickSelected(String select, By by){
-        boolean result = false;
-        List<WebElement> parentDiv = driver.findElements(by);
-        for(WebElement div: parentDiv){
-            if (div.getText().contains(select)){
-                div.click();
-                result = true;
-            }
-        } return result;
     }
 
     public static void refreshToLogoutPage(){

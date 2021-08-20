@@ -10,7 +10,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class LoginPageTest extends BaseTest {
 
-    @DisplayName("Sikeres bejelentkezés teszt")
+    @Order(4)
+    @DisplayName("TC-4  Sikeres bejelentkezés teszt")
     @Test
     public void LoginTest(){
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");
@@ -18,7 +19,8 @@ public class LoginPageTest extends BaseTest {
         LogoutPage.logoutSuccessful();
     }
 
-    @DisplayName("Sikertelen bejelentkezés teszt -helytelen jelszó")
+    @Order(5)
+    @DisplayName("TC-5  Sikertelen bejelentkezés teszt -helytelen jelszó")
     @Test
     public void LoginInvalidPasswordTest(){
         LoginPage.loginInvalidPassword("illusionlessbeauty@gmail.com", "onster");
@@ -26,7 +28,8 @@ public class LoginPageTest extends BaseTest {
         assertEquals("Érvénytelen felhasználói név vagy jelszó.", eMsg);
     }
 
-    @DisplayName("Sikertelen bejelentkezés teszt -helytelen mail")
+    @Order(6)
+    @DisplayName("TC-6  Sikertelen bejelentkezés teszt -helytelen mail")
     @Test
     public void LoginInvalidEmailTest(){
         LoginPage.loginInvalidEmail("llusionlessbeauty@gmail.com", "Monster");
@@ -34,7 +37,8 @@ public class LoginPageTest extends BaseTest {
         assertEquals("Érvénytelen felhasználói név vagy jelszó.", eMsg);
     }
 
-    @DisplayName("Sikertelen bejelentkezés teszt -üres mail")
+    @Order(7)
+    @DisplayName("TC-7  Sikertelen bejelentkezés teszt -üres mail mező")
     @Test
     public void LoginInvalidEmptyETest(){
         LoginPage.loginInvalidEmptyE("", "Monster");
@@ -42,7 +46,8 @@ public class LoginPageTest extends BaseTest {
         assertEquals("Ez egy kötelező mező.", vEMsg);
     }
 
-    @DisplayName("Sikertelen bejelentkezés teszt -üres jelszó")
+    @Order(8)
+    @DisplayName("TC-8  Sikertelen bejelentkezés teszt -üres jelszó mező")
     @Test
     public void LoginInvalidEmptyPWTest(){
         LoginPage.loginInvalidEmptyPW("illusionlessbeauty@gmail.com", "");

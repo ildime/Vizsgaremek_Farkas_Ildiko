@@ -5,28 +5,24 @@ import org.junit.jupiter.api.*;
 import pages.SearchPage;
 import utils.Utils;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 
 public class SearchPageTest extends BaseTest {
 
-    @DisplayName("Adatok listázása - szűrés")
+    @Order(10)
+    @DisplayName("TC-10  Adatok listázása - szűrés")
     @Test
     public void dataListTest() {
-        SearchPage.searchKeyword("gorgeous");
-        SearchPage.textToFile();
+        SearchPage.searchKeyword("szérum");
+        SearchPage.searchResultText();
         String data = Utils.readFromFile("Search_result.txt");
-        SearchPageTest.refresh();
-        String expected = SearchPage.searchExpectedText()+ ("\n");
+        refresh();
+        String expected = SearchPage.listToString();
         assertEquals(expected, data);
     }
 
     public static void refresh() {
-        SearchPage.refreshAndSearch("gorgeous");
+        SearchPage.refreshAndSearch("szérum");
     }
-
-//        PrivacyPolicyPage.dataPPSaveToFile();  + ("\n");
-//        String result = Utils.readFromFile("PrivacyPolicyText.txt");
-//        String expected = "automatizált adatkezelésen alapuló döntés";
-//        assertTrue(result.contains(expected))
 }

@@ -11,11 +11,9 @@ import pages.HomePage;
 import pages.LoginPage;
 import pages.LogoutPage;
 import utils.Utils;
-
 import java.io.ByteArrayInputStream;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+
 
 public class LogoutPageTest extends BaseTest {
 
@@ -26,6 +24,7 @@ public class LogoutPageTest extends BaseTest {
         Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
     }
 
+    @Order(18)
     @DisplayName("Sikeres kijeletkezés teszt")
     @Test
     public void LogoutTest(){

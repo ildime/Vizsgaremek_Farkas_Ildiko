@@ -11,12 +11,8 @@ import pages.CustomerAccountPage;
 import pages.LoginPage;
 import pages.LogoutPage;
 import utils.Utils;
-
 import java.io.ByteArrayInputStream;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 
 public class CustomerAccountPageTest extends BaseTest {
 
@@ -27,7 +23,8 @@ public class CustomerAccountPageTest extends BaseTest {
         Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
     }
 
-    @DisplayName("Ismételt és sorozatos adatbevitel adatforrásból - profil kitöltés")
+    @Order(13)
+    @DisplayName("TC-13  Ismételt és sorozatos adatbevitel adatforrásból - számlázási cím módosítása")
     @Test
     public void addressDataTest() {
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");
@@ -40,22 +37,22 @@ public class CustomerAccountPageTest extends BaseTest {
         LogoutPage.logoutSuccessful();
     }
 
-    @DisplayName("Meglévő adat módosítása - jelszó módosítása")
+    @Order(14)
+    @DisplayName("TC-14  Meglévő adat módosítása - jelszó módosítása")
     @Test
     public void changePasswordTest(){
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");
         CustomerAccountPage.changePassword("Monster", "Beauty", "Beauty");
-        TakeScreenshot(driver);
         String vPWMsg = CustomerAccountPage.changePasswordValidationPWMsg();
         assertEquals("Sikeres mentés.", vPWMsg);
         LogoutPage.logoutSuccessful();
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Beauty");
         CustomerAccountPage.changePassword("Beauty", "Monster", "Monster");
-        TakeScreenshot(driver);
         LogoutPage.logoutSuccessful();
     }
 
-    @DisplayName("Meglévő adat módosítása - sikertelen jelszó módosítás")
+    @Order(15)
+    @DisplayName("TC-15  Meglévő adat módosítása - sikertelen jelszó módosítás")
     @Test
     public void changePasswordInvalidTest(){
         LoginPage.loginSuccessful("illusionlessbeauty@gmail.com", "Monster");

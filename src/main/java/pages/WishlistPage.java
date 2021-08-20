@@ -16,7 +16,7 @@ public class WishlistPage {
     public static final By MESSAGE_TO_SHARE = By.id("message");
     public static final By WISHLIST_SUBMIT_BUTTON = By.xpath("//*[@class='buttons-set form-buttons']/button");
     public static final By WISHLIST_SEND_MESSAGE = By.xpath("//*[@class='success-msg']");
-    public static final By WISHLIST_UPDATE = By.xpath("button btn-update']");
+    public static final By WISHLIST_UPDATE = By.xpath("//*[@class='button btn-update']");
     public static final By ITEM_REMOVE = By.xpath("//*[@class='btn-remove']");
     public static final By WISHLIST_EMPTY = By.xpath("//*[@class='wishlist-empty']");
 
@@ -40,11 +40,11 @@ public class WishlistPage {
         Utils.click(ITEMS);
         Utils.click(STRESSLESS_TO_WISHLIST);
         Utils.clear(DESCIPTRION_BOX);
-        Utils.writeText(DESCIPTRION_BOX, "Nem egy szerep vagy amit magadra veszel\n" +
-                "Nem te vagy a gyerek se, és nem te öregszel\n" +
-                "Nem az vagy ami gyűlöl, ami irigy, ami öl\n" +
-                "Az se ami elhagy, letilt és kitöröl\n" +
-                "Nem egy szám vagy, nem a bőr szín, se a jó és se a rossz\n" +
+        Utils.writeText(DESCIPTRION_BOX, "Nem egy szerep vagy amit magadra veszel.\n" +
+                "Nem te vagy a gyerek se, és nem te öregszel.\n" +
+                "Nem az vagy ami gyűlöl, ami irigy, ami öl.\n" +
+                "Az se ami elhagy, letilt és kitöröl.\n" +
+                "Nem egy szám vagy, nem a bőr szín, se a jó és se a rossz.\n" +
                 "Ami vagy az nem a jövő, nem a múlt, az csak a most.");
         Utils.click(WISHLIST_UPDATE);
     }
@@ -62,5 +62,4 @@ public class WishlistPage {
         String wishlistEmptyMsg = Utils.getText(WISHLIST_EMPTY);
         return wishlistEmptyMsg;
     }
-
 }

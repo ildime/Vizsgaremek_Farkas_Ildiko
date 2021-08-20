@@ -2,20 +2,14 @@ package base;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;
-import org.junit.jupiter.api.extension.TestWatcher;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import pages.HomePage;
 
-public class BaseTest {   //implement TestWatcher?
+public class BaseTest {
 
     WebDriver driver;
-
-//    @BeforeAll
-//    public static void init() {
-//    }
-
 
     @BeforeEach
     public void Setup() {
@@ -36,6 +30,6 @@ public class BaseTest {   //implement TestWatcher?
 //    @AfterEach
 //    public void Close(){driver.close();}
 
-//    @AfterAll  //kilép az összes teszt után
+//    @AfterAll
 //    public static void quitDriver(){driver.quit();}
 }
