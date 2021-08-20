@@ -1,0 +1,212 @@
+{
+  "uid" : "2ce0d7a2aab068f",
+  "name" : "TC-17  Adatok lementése felületről teszt - könyv bemutató",
+  "fullName" : "book.BookPageTest.dataBookSaveToFileTest",
+  "historyId" : "174d08116ae181d83cec32b43bce6282",
+  "time" : {
+    "start" : 1629496262133,
+    "stop" : 1629496275853,
+    "duration" : 13720
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1629496262134,
+      "stop" : 1629496271394,
+      "duration" : 9260
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-136"
+  }, {
+    "name" : "thread",
+    "value" : "2935@fv-az74-136.ForkJoinPool-1-worker-3(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "book.BookPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "book.BookPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "dataBookSaveToFileTest"
+  }, {
+    "name" : "suite",
+    "value" : "book.BookPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "ada45dfcbf34cf50",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/33//#testresult/ada45dfcbf34cf50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629494714017,
+          "stop" : 1629494726423,
+          "duration" : 12406
+        }
+      }, {
+        "uid" : "fe07625c322bc8c3",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/32//#testresult/fe07625c322bc8c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629493320518,
+          "stop" : 1629493331684,
+          "duration" : 11166
+        }
+      }, {
+        "uid" : "4d57df4107868f8e",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/31//#testresult/4d57df4107868f8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629485648894,
+          "stop" : 1629485661748,
+          "duration" : 12854
+        }
+      }, {
+        "uid" : "b759865fb2ebafb1",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/30//#testresult/b759865fb2ebafb1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629485438474,
+          "stop" : 1629485452015,
+          "duration" : 13541
+        }
+      }, {
+        "uid" : "a318d551bcd44d36",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/29//#testresult/a318d551bcd44d36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629414413105,
+          "stop" : 1629414423710,
+          "duration" : 10605
+        }
+      }, {
+        "uid" : "4f62cad79f041515",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/28//#testresult/4f62cad79f041515",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629412755157,
+          "stop" : 1629412768624,
+          "duration" : 13467
+        }
+      }, {
+        "uid" : "80787c825f3c2d1d",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/27//#testresult/80787c825f3c2d1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629412309271,
+          "stop" : 1629412322648,
+          "duration" : 13377
+        }
+      }, {
+        "uid" : "284cdffa52ebcfdd",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/26//#testresult/284cdffa52ebcfdd",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-150', ip: '10.1.0.207', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '11.0.11'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x564e48003a63 <unknown>\n#1 0x564e47d78458 <unknown>\n#2 0x564e47d9b2e3 <unknown>\n#3 0x564e47d96e9f <unknown>\n#4 0x564e47dd0b72 <unknown>\n#5 0x564e47dcafd3 <unknown>\n#6 0x564e47da1514 <unknown>\n#7 0x564e47da2505 <unknown>\n#8 0x564e4802fe2e <unknown>\n#9 0x564e48045886 <unknown>\n#10 0x564e48030d75 <unknown>\n#11 0x564e48046d94 <unknown>\n#12 0x564e480278eb <unknown>\n#13 0x564e48061cd8 <unknown>\n#14 0x564e48061e58 <unknown>\n#15 0x564e4807bdfd <unknown>\n#16 0x7fe7a4a69609 start_thread\n",
+        "time" : {
+          "start" : 1629411890300,
+          "stop" : 1629411890455,
+          "duration" : 155
+        }
+      }, {
+        "uid" : "6df6f6674e7a0192",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/25//#testresult/6df6f6674e7a0192",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629410523950,
+          "stop" : 1629410537456,
+          "duration" : 13506
+        }
+      }, {
+        "uid" : "947348f01228b17d",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/24//#testresult/947348f01228b17d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629403618615,
+          "stop" : 1629403629642,
+          "duration" : 11027
+        }
+      }, {
+        "uid" : "aa4e14713a00c2c5",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/23//#testresult/aa4e14713a00c2c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629381280533,
+          "stop" : 1629381291296,
+          "duration" : 10763
+        }
+      }, {
+        "uid" : "3bed3059e7731e48",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/22//#testresult/3bed3059e7731e48",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629373402932,
+          "stop" : 1629373416786,
+          "duration" : 13854
+        }
+      }, {
+        "uid" : "22ef5a244228cbef",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/21//#testresult/22ef5a244228cbef",
+        "status" : "broken",
+        "statusDetails" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-854', ip: '10.1.0.90', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.Co7IJ6}, goog:chromeOptions: {debuggerAddress: localhost:38249}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 820d1c1cab99af18e8204148c39c8747",
+        "time" : {
+          "start" : 1629372872266,
+          "stop" : 1629372872287,
+          "duration" : 21
+        }
+      }, {
+        "uid" : "ae8f1e956650a4eb",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/20//#testresult/ae8f1e956650a4eb",
+        "status" : "broken",
+        "statusDetails" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az28-897', ip: '10.1.0.9', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.FkWSHU}, goog:chromeOptions: {debuggerAddress: localhost:33117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fd75cadd250848cfe8b6a7c480d43cd0",
+        "time" : {
+          "start" : 1629372705103,
+          "stop" : 1629372705121,
+          "duration" : 18
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2ce0d7a2aab068f.json",
+  "parameterValues" : [ ]
+}
