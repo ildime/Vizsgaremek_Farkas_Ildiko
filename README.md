@@ -2,14 +2,16 @@
 
 A felület tesztelés tárgya a   https://skinsmart.hu/   weboldal.
 
-A manuális tesztek dokumentációja a         oldalon található meg.
+A manuális tesztek dokumentációját a github repo tartlamazza. https://github.com/ildime/Vizsgaremek_Farkas_Ildiko/blob/master/Vizsgaremek_Manuális_teszt_Farkas_Ildiko.xlsx
 
 A generált tesztjelentés a   https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/   oldalon elérhető.
+
+Mivel Java nyelven, JUnit5 rendszerben íródott a kód, ezért a tesztek futtatásához Java környezet szüséges. Github Action segítségével készül a generált tesztjelentés, amely minden push-olás alkalmával lefuttatja a teszteket.  
 
 
 Az alábbi funkciókra fókuszálnak a tesztek:
 1. Regisztráció (RegistrationPage+RegistrationPageTest)
-Random generált betűk használatával a név, az email cím és a jelszó mezők kitöltése. A rendszer nem kér email-es megerősítést, így ezt a "Sikeres regisztráció teszt" inaktivált (Disabled), hogy ne fusson automatikusan, és az adatbázisba ne kerüljön "adatszemét". Egyébként lefut a teszt, megvizsgálja, hogy megkapja a "Köszönjük, hogy regisztráltál" üzenetet, majd kijelentkezik a felhasználó. Sikertelen regisztrációnál az egyik a random betűadatokkal próbál létrehozni egy felhasználót, de a két megadott jelszó nem egyezik. A másik pedig üres adatmezőkkel próbál regisztrálni. Mindkét tesztnél megkapjuk rendszertől elvárt hibaüzeneteket. 
+Random generált betűk használatával a név, az email cím és a jelszó mezők kitöltése. A rendszer nem kér email-es megerősítést, így ezt a "Sikeres regisztráció teszt" inaktivált (Disabled), hogy ne fusson automatikusan, és az adatbázisba ne kerüljön "adatszemét". Egyébként lefut a teszt, megvizsgálja, hogy megkapja a "Köszönjük, hogy regisztráltál" üzenetet, majd kijelentkezik a felhasználó. Sikertelen regisztráció teszteknél az egyik a random betűadatokkal próbál létrehozni egy felhasználót, de a két megadott jelszó nem egyezik. A másik pedig üres adatmezőkkel próbál regisztrálni. Mindkét tesztnél megkapjuk rendszertől elvárt hibaüzeneteket. 
 
 Mivel ez egy production(vagy "éles") webshop, a továbbiakban egy előre meghatározott felhasználót használok azokban a tesztekben, ahol bejelentkezve lehet elérni a funkciót.
 
@@ -19,27 +21,26 @@ Itt egy sikeres teszt, és 4 sikertelen szerepel. Minden esetben rávizsgálnak 
 3. Adatkezelési nyilatkozat használata (PrivacyPolicyPage+PrivacyPolicyPageTest+PrivacyPolicyText.txt)
 Az oldalon nincs lehetőség adatkezelési tájékoztató elfogasására, ezért az adatkezelési tájékoztató oldalára való navigálás után lementésre kerül egy txt file-ba az adatkezelési tájékoztató szövegezésének egy része, majd megvizsgáljuk, hogy egy, a tesztben megadott, és az oldalon is szereplő kifejezés valóban szerepel-e a txt file-ban.
 
-4. Keresőszavas szűrés eredményeinek vizsgálata (Adatok listázása) (SearchPage+SearchPageTest)
-
-
+4. Keresőszavas szűrés eredményeinek vizsgálata (Adatok listázása) (SearchPage+SearchPageTest+Search_result.txt)
+Egy keresőszavas szűrés után elmentjük egy Search_result.txt fájl-ba az eredményt, majd az oldalra frissítve, és még egyszer rákeresve ugyanazon keresőszóra, megvizsgáljuk, hogy a lementett txt fájl tartalma megegyezik-e az újonnan kapott eredménnyel. 
 
 5. Szakértői tanácsok bejegyzéseinek vizsgálata (Több oldalas lista bejárása) (ExpertAdvicePage+ExpertAdvicePageTest+Blogtitel.txt)
 A szakértői tanácsok lapon a teszt végiglapozza a blog listát, és közben kíírja egy Blogtitel.txt fájlba a blogcímeket, majd rávizsgál, hogy a lementett txt blogcímek száma egyezik-e a honlapon szereplő jelenlegi 47 blogszámmal.
 
 6. Kívánságlista elküldése egy üzenet kíséretében (Új adat bevitel) (WishlistPage+WishlistPageTest)
-Bejelentkezés és egy keresőszavas szűrés után a kívánságlistába helyezve egy terméket, lehetőség van megjegyzést írni hozzá, illetve a kívánságlistát egy üzenet kíséretében maximum 5 email címre elküldeni. Az adat bevitelt és a levél elküldését vizsgálja a tesztben, de nem érkezik meg a kívánságlista a címzetnek, annak ellenére, hogy sikeres üzenetküldési visszaigazolást küld a rendszer.
+Bejelentkezés és egy keresőszavas szűrés után a kívánságlistába helyezve egy terméket, lehetőség van megjegyzést írni hozzá, illetve a kívánságlistát egy üzenet kíséretében maximum 5 email címre elküldeni. Az adatbevitelt és a levél elküldését vizsgálja a teszt.
 
 7. Számlázási cím módosítása (Ismételt és sorozatos adatbevitel adatforrásból)(CustomerAccountPage+CustomerAccountPageTest+Address.txt)
-Bejelentkezés után az alapértelmezett számlázási címet szerkesztjük. A meglévő címeket töröljük, és az előre létrehozott Address.txt fájlból beolvasva módosítjuk az adatokat, és a sikeres mentésről üzenetet érkezik. (A mentésről kapott sikeres üzenet angolul jelenik meg, illetve a cím szerkesztésének oldalán a kitölthető nyomtatvány alján "Alapértelmezett számlázási cím""Alapértelmezett szállítási cím" feliratoknak nincs semmi funkciója)(A generált riportban képernyőfotók is elérhetőek a teszthez.)
+Bejelentkezés után az alapértelmezett számlázási címet szerkesztjük. A meglévő címeket töröljük, és az előre létrehozott Address.txt fájlból beolvasva módosítjuk az adatokat. A sikeres mentésről üzenet érkezik.
 
 8. Jelszó módosítása (Meglévő adat módosítása) (CustomerAccountPage+CustomerAccountPageTest)
-Ugyan már az elöző 7-es pont (ismételt adatbevitel adatforrásból) is a meglévő adat módosításával történik, de itt a jelszó sikeres megváltoztatását, és egy sikertelen próbálkozás alkalmával kapott hibaüzenetet vizsgál a teszt. (A rendszer egy angol nyelvű automatikus email üzenetet küld a jelszó megváltoztatásáról, amelyben kéri, hogy ha nem a fióktulajdonos engedélyezte a műveletet, akkor lépjen kapcsolatba a Skinsmart-al. Az emailben nincs kontakt megadva, csak a hello@skinsmart.hu-ról érkező levelezési cím elérhető.)
+Ugyan már az elöző 7-es pont (ismételt adatbevitel adatforrásból) is a meglévő adat módosításával történik, de itt a jelszó sikeres megváltoztatását, és egy sikertelen próbálkozás alkalmával kapott hibaüzenetet vizsgál a teszt.
 
 9. Kívánságlistás termékhez fűzőtt megjegyzés szerkesztése (Adat vagy adatok törlése) (WishlistPage+WishlistPageTest)
-Bejelentkezés és szűrés után a terméket a kívánságlistába helyezve megjegyzés írunk a termékhez, majd kitörüljük a megjegyzést, illetve a terméket is a kívánságlistáról. A tesztjelentésben képernyőfotók dokumentálják a tesztállapotokat.
+Bejelentkezés és szűrés után a terméket a kívánságlistába helyezve megjegyzés írunk a termékhez, majd kitörüljük a megjegyzést, illetve a terméket is a kívánságlistáról. A tesztjelentésben képernyőfotók is dokumentálják a tesztállapotokat.
 
 10. Egy termék bemutató leírásának vizsgálata (Adatok lementése felületről) (BookPage+BookPageTest+Book.txt)
-Miután elnavigálunk a könyv termékhez, annak bemutatását leírását lementjük egy txt file-ba. Eztán ennek a lementett file-nak a tartalmát összehasonlítjuk az oldalon található szöveggel.
+Miután elnavigálunk a könyv termékhez, annak bemutató leírását lementjük egy txt file-ba. Ennek a lementett file-nak a tartalmát összehasonlítjuk az oldalon található szöveggel.
 
 11. Kijelentkezés (LogoutPage+LogoutPageTest)
-A kijelentkezés funkciónál, bejelentkezik a felhasználó, majd a kijelentkezést követően ráfrissít az oldalra, és rávizsgál, hogy valóban kijelentkezett.(A generált riportban képernyőfotók is elérhetőek a teszthez.)
+A kijelentkezés funkciónál, bejelentkezik a felhasználó, majd a kijelentkezést követően ráfrissít az oldalra, és rávizsgál, hogy valóban kijelentkezett. A generált riportban képernyőfotók is elérhetőek a teszthez.
