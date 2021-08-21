@@ -1,0 +1,171 @@
+[ {
+  "uid" : "51a757da021eb532",
+  "name" : "TC-13  Ismételt és sorozatos adatbevitel adatforrásból - számlázási cím módosítása",
+  "time" : {
+    "start" : 1629582583406,
+    "stop" : 1629582598712,
+    "duration" : 15306
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c069f2a6a37501d",
+  "name" : "TC-18  Sikeres kijeletkezés teszt",
+  "time" : {
+    "start" : 1629582512681,
+    "stop" : 1629582522746,
+    "duration" : 10065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "535667290b882439",
+  "name" : "TC-7  Sikertelen bejelentkezés teszt -üres mail mező",
+  "time" : {
+    "start" : 1629582683327,
+    "stop" : 1629582693423,
+    "duration" : 10096
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8309e1e4b9dd3328",
+  "name" : "TC-8  Sikertelen bejelentkezés teszt -üres jelszó mező",
+  "time" : {
+    "start" : 1629582650994,
+    "stop" : 1629582660831,
+    "duration" : 9837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d41973a35bb3c34",
+  "name" : "TC-4  Sikeres bejelentkezés teszt",
+  "time" : {
+    "start" : 1629582638731,
+    "stop" : 1629582650991,
+    "duration" : 12260
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78a116699cbdec7e",
+  "name" : "TC-9  Adatkezelési nyilatkozat használata teszt - adatmentéssel",
+  "time" : {
+    "start" : 1629582522928,
+    "stop" : 1629582534259,
+    "duration" : 11331
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da2e93e89b7ed926",
+  "name" : "TC-16  Adat vagy adatok törlése",
+  "time" : {
+    "start" : 1629582598723,
+    "stop" : 1629582619034,
+    "duration" : 20311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "189e25a3012aa3d3",
+  "name" : "TC-11  Több oldalas lista bejárás teszt",
+  "time" : {
+    "start" : 1629582705994,
+    "stop" : 1629582723001,
+    "duration" : 17007
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9ed88fcb74eef5e",
+  "name" : "TC-5  Sikertelen bejelentkezés teszt -helytelen jelszó",
+  "time" : {
+    "start" : 1629582672203,
+    "stop" : 1629582683324,
+    "duration" : 11121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8ae9380133821c8",
+  "name" : "TC-6  Sikertelen bejelentkezés teszt -helytelen mail",
+  "time" : {
+    "start" : 1629582660833,
+    "stop" : 1629582672197,
+    "duration" : 11364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96b84c0ba9f0caf4",
+  "name" : "TC-10  Adatok listázása - szűrés",
+  "time" : {
+    "start" : 1629582534287,
+    "stop" : 1629582548898,
+    "duration" : 14611
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5443a701d078551d",
+  "name" : "TC-2  Sikertelen regisztráció teszt - generált adatokkal, jelszómegerősítés különbözik",
+  "time" : {
+    "start" : 1629582723005,
+    "stop" : 1629582734425,
+    "duration" : 11420
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92ce784eab8b9dae",
+  "name" : "TC-15  Meglévő adat módosítása - sikertelen jelszó módosítás",
+  "time" : {
+    "start" : 1629582570253,
+    "stop" : 1629582583400,
+    "duration" : 13147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0406a6b37f19e32",
+  "name" : "TC-17  Adatok lementése felületről teszt - könyv bemutató",
+  "time" : {
+    "start" : 1629582693426,
+    "stop" : 1629582705983,
+    "duration" : 12557
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3df54620a63181e4",
+  "name" : "TC-12  Új adat bevitel",
+  "time" : {
+    "start" : 1629582619037,
+    "stop" : 1629582638717,
+    "duration" : 19680
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b9358b3c8637815",
+  "name" : "TC-14  Meglévő adat módosítása - jelszó módosítása",
+  "time" : {
+    "start" : 1629582548920,
+    "stop" : 1629582570251,
+    "duration" : 21331
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "216acd840adbddb",
+  "name" : "TC-3  Sikertelen regisztráció teszt - üres adatmezőkkel",
+  "time" : {
+    "start" : 1629582734429,
+    "stop" : 1629582745664,
+    "duration" : 11235
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
