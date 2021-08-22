@@ -1,0 +1,262 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "search.SearchPageTest",
+    "children" : [ {
+      "name" : "TC-10  Adatok listázása - szűrés",
+      "uid" : "e3271f3d316e4005",
+      "parentUid" : "9cb754a8b29d2c6a59d0f7ff44eeb659",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629619114514,
+        "stop" : 1629619139003,
+        "duration" : 24489
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9cb754a8b29d2c6a59d0f7ff44eeb659"
+  }, {
+    "name" : "logout.LogoutPageTest",
+    "children" : [ {
+      "name" : "TC-18  Sikeres kijeletkezés teszt",
+      "uid" : "f711ffd093d502d5",
+      "parentUid" : "07fe7956239e859751514588c57f3e52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629619129490,
+        "stop" : 1629619140749,
+        "duration" : 11259
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "07fe7956239e859751514588c57f3e52"
+  }, {
+    "name" : "login.LoginPageTest",
+    "children" : [ {
+      "name" : "TC-4  Sikeres bejelentkezés teszt",
+      "uid" : "c05439e5c0e5ad7c",
+      "parentUid" : "59c5d56bf5aecb3d2f93f686508142f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629619139128,
+        "stop" : 1629619148030,
+        "duration" : 8902
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-8  Sikertelen bejelentkezés teszt -üres jelszó mező",
+      "uid" : "edf64cdcc5d27c25",
+      "parentUid" : "59c5d56bf5aecb3d2f93f686508142f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629619148035,
+        "stop" : 1629619159055,
+        "duration" : 11020
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-6  Sikertelen bejelentkezés teszt -helytelen mail",
+      "uid" : "252d4c54df42690d",
+      "parentUid" : "59c5d56bf5aecb3d2f93f686508142f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629619159059,
+        "stop" : 1629619171160,
+        "duration" : 12101
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-5  Sikertelen bejelentkezés teszt -helytelen jelszó",
+      "uid" : "c74ebbe6ee296abd",
+      "parentUid" : "59c5d56bf5aecb3d2f93f686508142f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629619171173,
+        "stop" : 1629619182789,
+        "duration" : 11616
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-7  Sikertelen bejelentkezés teszt -üres mail mező",
+      "uid" : "c18199465bd44d87",
+      "parentUid" : "59c5d56bf5aecb3d2f93f686508142f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629619182795,
+        "stop" : 1629619193069,
+        "duration" : 10274
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "59c5d56bf5aecb3d2f93f686508142f7"
+  }, {
+    "name" : "privacypolicy.PrivacyPolicyPageTest",
+    "children" : [ {
+      "name" : "TC-9  Adatkezelési nyilatkozat használata teszt - adatmentéssel",
+      "uid" : "8b2d1c5957d4bb5b",
+      "parentUid" : "a1a1564686708601d3ed0e6c5441ebdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629619140905,
+        "stop" : 1629619152780,
+        "duration" : 11875
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a1a1564686708601d3ed0e6c5441ebdc"
+  }, {
+    "name" : "customer.CustomerAccountPageTest",
+    "children" : [ {
+      "name" : "TC-14  Meglévő adat módosítása - jelszó módosítása",
+      "uid" : "4e7590f356bc1a41",
+      "parentUid" : "88099d4333f0f349f73b0f837eaaf728",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629619152799,
+        "stop" : 1629619175937,
+        "duration" : 23138
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-15  Meglévő adat módosítása - sikertelen jelszó módosítás",
+      "uid" : "8365148178288e70",
+      "parentUid" : "88099d4333f0f349f73b0f837eaaf728",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629619175940,
+        "stop" : 1629619189863,
+        "duration" : 13923
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-13  Ismételt és sorozatos adatbevitel adatforrásból - számlázási cím módosítása",
+      "uid" : "5cdefc8c1364ba88",
+      "parentUid" : "88099d4333f0f349f73b0f837eaaf728",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629619189870,
+        "stop" : 1629619206522,
+        "duration" : 16652
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "88099d4333f0f349f73b0f837eaaf728"
+  }, {
+    "name" : "book.BookPageTest",
+    "children" : [ {
+      "name" : "TC-17  Adatok lementése felületről teszt - könyv bemutató",
+      "uid" : "52540b74d36d975",
+      "parentUid" : "33e90167c21486412f19521d67e4d6bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629619193079,
+        "stop" : 1629619207351,
+        "duration" : 14272
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "33e90167c21486412f19521d67e4d6bf"
+  }, {
+    "name" : "wish.WishlistPageTest",
+    "children" : [ {
+      "name" : "TC-16  Adat vagy adatok törlése",
+      "uid" : "86f73c12b1eb8f60",
+      "parentUid" : "8ea622b1a551e137d070b2ba38a3bc96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629619206541,
+        "stop" : 1629619229593,
+        "duration" : 23052
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-12  Új adat bevitel",
+      "uid" : "7f2a0ba8023c7f1a",
+      "parentUid" : "8ea622b1a551e137d070b2ba38a3bc96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629619229597,
+        "stop" : 1629619250514,
+        "duration" : 20917
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8ea622b1a551e137d070b2ba38a3bc96"
+  }, {
+    "name" : "expertadvice.ExpertAdvicePageTest",
+    "children" : [ {
+      "name" : "TC-11  Több oldalas lista bejárás teszt",
+      "uid" : "caa2a5d2feecac15",
+      "parentUid" : "7d9ac0ec04d676f8b0b77ad924cb30e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629619207366,
+        "stop" : 1629619224271,
+        "duration" : 16905
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7d9ac0ec04d676f8b0b77ad924cb30e1"
+  }, {
+    "name" : "registration.RegistrationPageTest",
+    "children" : [ {
+      "name" : "TC-2  Sikertelen regisztráció teszt - generált adatokkal, jelszómegerősítés különbözik",
+      "uid" : "d0ad1cdd3573694a",
+      "parentUid" : "e6df3acd3933015c37462d077df3f03e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629619250528,
+        "stop" : 1629619261960,
+        "duration" : 11432
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-3  Sikertelen regisztráció teszt - üres adatmezőkkel",
+      "uid" : "25cf07c9f81be373",
+      "parentUid" : "e6df3acd3933015c37462d077df3f03e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629619261966,
+        "stop" : 1629619274072,
+        "duration" : 12106
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e6df3acd3933015c37462d077df3f03e"
+  } ],
+  "name" : "suites"
+}

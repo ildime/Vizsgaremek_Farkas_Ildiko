@@ -1,0 +1,288 @@
+{
+  "uid" : "5cdefc8c1364ba88",
+  "name" : "TC-13  Ismételt és sorozatos adatbevitel adatforrásból - számlázási cím módosítása",
+  "fullName" : "customer.CustomerAccountPageTest.addressDataTest",
+  "historyId" : "deac4666ebbbb15d124e5ef2f801961b",
+  "time" : {
+    "start" : 1629619189870,
+    "stop" : 1629619206522,
+    "duration" : 16652
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1629619189871,
+      "stop" : 1629619198701,
+      "duration" : 8830
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "51eb29334a9bbbae",
+      "name" : "Screenshot",
+      "source" : "51eb29334a9bbbae.png",
+      "type" : "image/png",
+      "size" : 96143
+    }, {
+      "uid" : "4dfcce909e1d189f",
+      "name" : "Screenshot",
+      "source" : "4dfcce909e1d189f.png",
+      "type" : "image/png",
+      "size" : 111029
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az83-150"
+  }, {
+    "name" : "thread",
+    "value" : "2948@fv-az83-150.ForkJoinPool-1-worker-3(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "customer.CustomerAccountPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "customer.CustomerAccountPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "addressDataTest"
+  }, {
+    "name" : "suite",
+    "value" : "customer.CustomerAccountPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 19,
+        "unknown" : 0,
+        "total" : 21
+      },
+      "items" : [ {
+        "uid" : "860d27b650711748",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/39//#testresult/860d27b650711748",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629618829748,
+          "stop" : 1629618846042,
+          "duration" : 16294
+        }
+      }, {
+        "uid" : "98a2f1b3f484060b",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/40//#testresult/98a2f1b3f484060b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629618825898,
+          "stop" : 1629618839670,
+          "duration" : 13772
+        }
+      }, {
+        "uid" : "a2a31c92e8f4bd86",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/38//#testresult/a2a31c92e8f4bd86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629583773224,
+          "stop" : 1629583789569,
+          "duration" : 16345
+        }
+      }, {
+        "uid" : "51a757da021eb532",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/37//#testresult/51a757da021eb532",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629582583406,
+          "stop" : 1629582598712,
+          "duration" : 15306
+        }
+      }, {
+        "uid" : "242c91369efd1a5d",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/36//#testresult/242c91369efd1a5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629582393527,
+          "stop" : 1629582407424,
+          "duration" : 13897
+        }
+      }, {
+        "uid" : "de9096564c8ab676",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/35//#testresult/de9096564c8ab676",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629581437833,
+          "stop" : 1629581452384,
+          "duration" : 14551
+        }
+      }, {
+        "uid" : "36b7240c1620e28",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/34//#testresult/36b7240c1620e28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629496151050,
+          "stop" : 1629496166373,
+          "duration" : 15323
+        }
+      }, {
+        "uid" : "6511c0c4a79e0f71",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/33//#testresult/6511c0c4a79e0f71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629494655881,
+          "stop" : 1629494672101,
+          "duration" : 16220
+        }
+      }, {
+        "uid" : "54413f735fac7919",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/32//#testresult/54413f735fac7919",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629493222860,
+          "stop" : 1629493237110,
+          "duration" : 14250
+        }
+      }, {
+        "uid" : "b87016cc47dacef4",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/31//#testresult/b87016cc47dacef4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629485533676,
+          "stop" : 1629485550473,
+          "duration" : 16797
+        }
+      }, {
+        "uid" : "abd2309edad49b45",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/30//#testresult/abd2309edad49b45",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629485352201,
+          "stop" : 1629485369209,
+          "duration" : 17008
+        }
+      }, {
+        "uid" : "2053cde90c9e6d49",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/29//#testresult/2053cde90c9e6d49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629414319997,
+          "stop" : 1629414333348,
+          "duration" : 13351
+        }
+      }, {
+        "uid" : "a020f226e1185cfc",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/28//#testresult/a020f226e1185cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629412645627,
+          "stop" : 1629412661334,
+          "duration" : 15707
+        }
+      }, {
+        "uid" : "58bd129c0ed43ae7",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/27//#testresult/58bd129c0ed43ae7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629412200321,
+          "stop" : 1629412216059,
+          "duration" : 15738
+        }
+      }, {
+        "uid" : "e151388dffc41296",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/25//#testresult/e151388dffc41296",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629410415862,
+          "stop" : 1629410431843,
+          "duration" : 15981
+        }
+      }, {
+        "uid" : "a185030ed4731931",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/24//#testresult/a185030ed4731931",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629403526189,
+          "stop" : 1629403539350,
+          "duration" : 13161
+        }
+      }, {
+        "uid" : "a00822c6ed1f9e3b",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/23//#testresult/a00822c6ed1f9e3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629381187868,
+          "stop" : 1629381201746,
+          "duration" : 13878
+        }
+      }, {
+        "uid" : "eff6c577b6d920d2",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/22//#testresult/eff6c577b6d920d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629373293355,
+          "stop" : 1629373309828,
+          "duration" : 16473
+        }
+      }, {
+        "uid" : "882ad76d45a99c07",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/21//#testresult/882ad76d45a99c07",
+        "status" : "broken",
+        "statusDetails" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-854', ip: '10.1.0.90', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.Co7IJ6}, goog:chromeOptions: {debuggerAddress: localhost:38249}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 820d1c1cab99af18e8204148c39c8747",
+        "time" : {
+          "start" : 1629372872036,
+          "stop" : 1629372872053,
+          "duration" : 17
+        }
+      }, {
+        "uid" : "ed49865991123432",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/20//#testresult/ed49865991123432",
+        "status" : "broken",
+        "statusDetails" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az28-897', ip: '10.1.0.9', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.FkWSHU}, goog:chromeOptions: {debuggerAddress: localhost:33117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fd75cadd250848cfe8b6a7c480d43cd0",
+        "time" : {
+          "start" : 1629372704854,
+          "stop" : 1629372704875,
+          "duration" : 21
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5cdefc8c1364ba88.json",
+  "parameterValues" : [ ]
+}
