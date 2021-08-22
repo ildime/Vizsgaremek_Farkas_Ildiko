@@ -4,6 +4,8 @@ A felület tesztelés tárgya a   https://skinsmart.hu/   weboldal.
 
 A manuális tesztek dokumentációját a github repo tartlamazza. https://github.com/ildime/Vizsgaremek_Farkas_Ildiko/blob/master/Vizsgaremek_Manuális_teszt_Farkas_Ildiko.xlsx
 
+A bugként felvett hibajegyek nem kapcsolódnak szorosan a tesztelt funkciókhoz, inkább jellemzően esztétikai, mintsem funkcionalitásbeli hibák. Ennek ellenére érdemes lehet a későbbiekben a kijavításukkal foglalkozni. 
+
 A generált tesztjelentés a   https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/   oldalon elérhető.
 
 Mivel Java nyelven, JUnit5 rendszerben íródott a kód, ezért a tesztek futtatásához Java környezet szüséges. Github Action segítségével készül a generált tesztjelentés, amely minden push-olás alkalmával lefuttatja a teszteket.  
