@@ -104,4 +104,18 @@ public class Utils {
     public static void refreshToLogoutPage(){
         driver.navigate().refresh();
     }
+
+//            if (filename.exists()) { file.delete();}
+
+//    public static boolean clickSelected(String select, By by){
+//        boolean result = false;
+//        List<WebElement> parentDiv = driver.findElements(by);
+//        for(WebElement div: parentDiv){
+//            if (div.getText().contains(select)){
+//                div.click();
+//                result = true;
+//            }
+//        } return result;
+//    }
+    
 }

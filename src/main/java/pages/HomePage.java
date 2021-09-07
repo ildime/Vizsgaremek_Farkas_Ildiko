@@ -15,7 +15,7 @@ public class HomePage {
 
     public static void clickAcceptCookies(){
         try {
-            Utils.click(HomePage.ACCEPT_COOKIES_BUTTON);
+            Utils.click(ACCEPT_COOKIES_BUTTON);
         }catch (Exception e){
             e.printStackTrace();
         }
