@@ -1,0 +1,265 @@
+{
+  "uid" : "344d5415bbb0b457",
+  "name" : "TC-14  Meglévő adat módosítása - jelszó módosítása",
+  "fullName" : "customer.CustomerAccountPageTest.changePasswordTest",
+  "historyId" : "e2ccabad4a24b90be80373d59552bf8e",
+  "time" : {
+    "start" : 1631043075909,
+    "stop" : 1631043096628,
+    "duration" : 20719
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1631043075909,
+      "stop" : 1631043084754,
+      "duration" : 8845
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az83-851"
+  }, {
+    "name" : "thread",
+    "value" : "2919@fv-az83-851.ForkJoinPool-1-worker-3(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "customer.CustomerAccountPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "customer.CustomerAccountPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "changePasswordTest"
+  }, {
+    "name" : "suite",
+    "value" : "customer.CustomerAccountPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 19,
+        "unknown" : 0,
+        "total" : 22
+      },
+      "items" : [ {
+        "uid" : "4e7590f356bc1a41",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/41//#testresult/4e7590f356bc1a41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629619152799,
+          "stop" : 1629619175937,
+          "duration" : 23138
+        }
+      }, {
+        "uid" : "b5a5d040ada7b65f",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/39//#testresult/b5a5d040ada7b65f",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@class='box']/div[2]/p/a (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1629618797774,
+          "stop" : 1629618815538,
+          "duration" : 17764
+        }
+      }, {
+        "uid" : "621acc948179c9c9",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/40//#testresult/621acc948179c9c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629618795713,
+          "stop" : 1629618814129,
+          "duration" : 18416
+        }
+      }, {
+        "uid" : "db445a162a7f9f7f",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/38//#testresult/db445a162a7f9f7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629583738171,
+          "stop" : 1629583759601,
+          "duration" : 21430
+        }
+      }, {
+        "uid" : "4b9358b3c8637815",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/37//#testresult/4b9358b3c8637815",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629582548920,
+          "stop" : 1629582570251,
+          "duration" : 21331
+        }
+      }, {
+        "uid" : "b0fe60d3daee2cb2",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/36//#testresult/b0fe60d3daee2cb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629582363919,
+          "stop" : 1629582382164,
+          "duration" : 18245
+        }
+      }, {
+        "uid" : "674e7eb03d521391",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/35//#testresult/674e7eb03d521391",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629581406876,
+          "stop" : 1629581425508,
+          "duration" : 18632
+        }
+      }, {
+        "uid" : "8cc5fcd1962fd904",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/34//#testresult/8cc5fcd1962fd904",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629496115702,
+          "stop" : 1629496137860,
+          "duration" : 22158
+        }
+      }, {
+        "uid" : "5a8958f8cf58bbb4",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/33//#testresult/5a8958f8cf58bbb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629494619673,
+          "stop" : 1629494642368,
+          "duration" : 22695
+        }
+      }, {
+        "uid" : "5414d922d3b116cb",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/32//#testresult/5414d922d3b116cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629493191384,
+          "stop" : 1629493210731,
+          "duration" : 19347
+        }
+      }, {
+        "uid" : "fe84e672657362fa",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/31//#testresult/fe84e672657362fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629485497478,
+          "stop" : 1629485519601,
+          "duration" : 22123
+        }
+      }, {
+        "uid" : "1f7a6ddf74249a82",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/30//#testresult/1f7a6ddf74249a82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629485319670,
+          "stop" : 1629485338149,
+          "duration" : 18479
+        }
+      }, {
+        "uid" : "a3721b155a5cda1d",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/29//#testresult/a3721b155a5cda1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629414287977,
+          "stop" : 1629414308076,
+          "duration" : 20099
+        }
+      }, {
+        "uid" : "3391af0f2db5cddc",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/28//#testresult/3391af0f2db5cddc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629412608665,
+          "stop" : 1629412631672,
+          "duration" : 23007
+        }
+      }, {
+        "uid" : "1b59da44da7220d2",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/27//#testresult/1b59da44da7220d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629412163523,
+          "stop" : 1629412186171,
+          "duration" : 22648
+        }
+      }, {
+        "uid" : "bf2ce122558443c7",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/25//#testresult/bf2ce122558443c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629410382681,
+          "stop" : 1629410402314,
+          "duration" : 19633
+        }
+      }, {
+        "uid" : "823b2e7e748734d",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/24//#testresult/823b2e7e748734d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629403499145,
+          "stop" : 1629403514825,
+          "duration" : 15680
+        }
+      }, {
+        "uid" : "53501153dddea075",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/23//#testresult/53501153dddea075",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629381161458,
+          "stop" : 1629381175865,
+          "duration" : 14407
+        }
+      }, {
+        "uid" : "b141362fcffec99f",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/22//#testresult/b141362fcffec99f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629373261639,
+          "stop" : 1629373279725,
+          "duration" : 18086
+        }
+      }, {
+        "uid" : "5094f02d817fbbab",
+        "reportUrl" : "https://ildime.github.io/Vizsgaremek_Farkas_Ildiko/21//#testresult/5094f02d817fbbab",
+        "status" : "broken",
+        "statusDetails" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-854', ip: '10.1.0.90', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.Co7IJ6}, goog:chromeOptions: {debuggerAddress: localhost:38249}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 820d1c1cab99af18e8204148c39c8747",
+        "time" : {
+          "start" : 1629372871989,
+          "stop" : 1629372872005,
+          "duration" : 16
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "344d5415bbb0b457.json",
+  "parameterValues" : [ ]
+}
